@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>TestNG:  Web Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Web Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 16 16:42:03 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>134 seconds (134734 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='sanity.GrafanaWeb.test01_verifyHeader()'><b>test01_verifyHeader</b><br>Test class: sanity.GrafanaWeb<br>Test method: test01 - Verify Header</td>
+<td></td>
+<td>18</td>
+<td>sanity.GrafanaWeb@492fc69e</td></tr>
+<tr>
+<td title='sanity.GrafanaWeb.test02_verifyDefaultUsers()'><b>test02_verifyDefaultUsers</b><br>Test class: sanity.GrafanaWeb<br>Test method: test02 - Default Users</td>
+<td></td>
+<td>4</td>
+<td>sanity.GrafanaWeb@492fc69e</td></tr>
+<tr>
+<td title='sanity.GrafanaWeb.test03_verifyNewUser()'><b>test03_verifyNewUser</b><br>Test class: sanity.GrafanaWeb<br>Test method: test03 - Verify New User</td>
+<td></td>
+<td>9</td>
+<td>sanity.GrafanaWeb@492fc69e</td></tr>
+<tr>
+<td title='sanity.GrafanaWeb.test04_verifyUserDeletion()'><b>test04_verifyUserDeletion</b><br>Test class: sanity.GrafanaWeb<br>Test method: test04 - Verify User Deletion</td>
+<td></td>
+<td>3</td>
+<td>sanity.GrafanaWeb@492fc69e</td></tr>
+<tr>
+<td title='sanity.GrafanaWeb.test05_verifyProgressSteps()'><b>test05_verifyProgressSteps</b><br>Test class: sanity.GrafanaWeb<br>Test method: test05 - Verify Progress Steps</td>
+<td></td>
+<td>0</td>
+<td>sanity.GrafanaWeb@492fc69e</td></tr>
+<tr>
+<td title='sanity.GrafanaWeb.test06_verifyAvatarIcon()'><b>test06_verifyAvatarIcon</b><br>Test class: sanity.GrafanaWeb<br>Test method: test06 - Verify Avatar Icon</td>
+<td></td>
+<td>4</td>
+<td>sanity.GrafanaWeb@492fc69e</td></tr>
+<tr>
+<td title='sanity.GrafanaWeb.test07_searchUsers()'><b>test07_searchUsers</b><br>Test class: sanity.GrafanaWeb<br>Test method: test07 - Search Users<br>Parameters: yakir, not-exist</td>
+<td></td>
+<td>15</td>
+<td>sanity.GrafanaWeb@492fc69e</td></tr>
+<tr>
+<td title='sanity.GrafanaWeb.test07_searchUsers()'><b>test07_searchUsers</b><br>Test class: sanity.GrafanaWeb<br>Test method: test07 - Search Users<br>Parameters: admin, exists</td>
+<td></td>
+<td>4</td>
+<td>sanity.GrafanaWeb@492fc69e</td></tr>
+<tr>
+<td title='sanity.GrafanaWeb.test07_searchUsers()'><b>test07_searchUsers</b><br>Test class: sanity.GrafanaWeb<br>Test method: test07 - Search Users<br>Parameters: david, not-exist</td>
+<td></td>
+<td>15</td>
+<td>sanity.GrafanaWeb@492fc69e</td></tr>
+<tr>
+<td title='sanity.GrafanaWeb.test08_dragAndDropHeader()'><b>test08_dragAndDropHeader</b><br>Test class: sanity.GrafanaWeb<br>Test method: test08 - Drag And Drop The Title</td>
+<td></td>
+<td>5</td>
+<td>sanity.GrafanaWeb@492fc69e</td></tr>
+</table><p>
+</body>
+</html>

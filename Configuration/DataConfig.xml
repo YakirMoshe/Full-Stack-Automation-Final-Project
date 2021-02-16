@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!-- Timeout -->
+    <Timeout>5</Timeout>
+
+    <!-- General -->
+<!--    <PlatformName>web</PlatformName>-->
+
+    <!-- Autorization to API-->
+    <UserName>admin</UserName>
+    <Password>admin</Password>
+
+    <!-- Web -->
+    <ChromeDriverPath>./Drivers/chromedriver.exe</ChromeDriverPath>
+    <BrowserName>chrome</BrowserName>
+    <url>http://localhost:3000/</url>
+    <ImageRepo>C:\\FinalProjectAutomation\\FinalProject\\ImageRepository\\</ImageRepo>
+
+   <!-- Data Drivan Testing -->
+    <DDTFiles>./DDTFiles/users.csv</DDTFiles>
+
+    <!-- Mobile -->
+    <UDID>R5CN714NCJY</UDID>
+    <AppPackage>com.shivgadhia.android.ukMortgageCalc</AppPackage>
+    <AppActivity>.MainActivity</AppActivity>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+
+    <!--api -->
+    <urlAPI>http://localhost:3000/</urlAPI>
+
+    <!--Electron -->
+    <ElectronDriverPath>./Drivers/electrondriver.exe</ElectronDriverPath>
+    <ElectronAppPath>C:/Users/y26634/AppData/Local/Programs/todolist/Todolist.exe</ElectronAppPath>
+
+    <!--Desktop -->
+    <CalculatorApp>Microsoft.WindowsAlarms_8wekyb3d8bbwe!App</CalculatorApp>
+    <AppiumServerDesktop>http://127.0.0.1:4723</AppiumServerDesktop>
+
+    <!-- Database -->
+    <DBURL>jdbc:mysql://remotemysql.com:3306/5tnjim4DOv</DBURL>
+    <DBUserName>5tnjim4DOv</DBUserName>
+    <DBPassword>yGoSouIXCy</DBPassword>
+</Environment>

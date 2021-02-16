@@ -1,0 +1,191 @@
+[ {
+  "uid" : "37657c2ae716b863",
+  "name" : "test05 - Verify Progress Steps",
+  "time" : {
+    "start" : 1613486604808,
+    "stop" : 1613486605396,
+    "duration" : 588
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39aef3b0bd8bd696",
+  "name" : "test07 - Search Users",
+  "time" : {
+    "start" : 1613486628630,
+    "stop" : 1613486633191,
+    "duration" : 4561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "544cde5eb78d6256",
+  "name" : "test03 - Update Team and Verify",
+  "time" : {
+    "start" : 1613486556815,
+    "stop" : 1613486557534,
+    "duration" : 719
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b69253917529d75",
+  "name" : "test01 - Get Team From Grafana API",
+  "time" : {
+    "start" : 1613486540334,
+    "stop" : 1613486554552,
+    "duration" : 14218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1384cfaafb275ddc",
+  "name" : "test01 - Login to Grafana with DB Credentials",
+  "time" : {
+    "start" : 1613486561852,
+    "stop" : 1613486581887,
+    "duration" : 20035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66fc8dd3b1610984",
+  "name" : "test02 - Default Users",
+  "time" : {
+    "start" : 1613486583622,
+    "stop" : 1613486588136,
+    "duration" : 4514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37dedf1a6e640416",
+  "name" : "test04 - Delete Team and Verify",
+  "time" : {
+    "start" : 1613486557652,
+    "stop" : 1613486558603,
+    "duration" : 951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b31cadaed404af9f",
+  "name" : "test04 - Mark a task performed And Verify marking ",
+  "time" : {
+    "start" : 1613486605342,
+    "stop" : 1613486615388,
+    "duration" : 10046
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea60b97a857cbdc3",
+  "name" : "test07 - Search Users",
+  "time" : {
+    "start" : 1613486633821,
+    "stop" : 1613486649205,
+    "duration" : 15384
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "984780cd2c146d6",
+  "name" : "test02 - Add And Verify New Task",
+  "time" : {
+    "start" : 1613486560640,
+    "stop" : 1613486576506,
+    "duration" : 15866
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "457118750b9e7f96",
+  "name" : "test06 - Verify Avatar Icon",
+  "time" : {
+    "start" : 1613486606025,
+    "stop" : 1613486610426,
+    "duration" : 4401
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bd3929071528a8a",
+  "name" : "test07 - Search Users",
+  "time" : {
+    "start" : 1613486611944,
+    "stop" : 1613486628146,
+    "duration" : 16202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77bf0fae3b1845a9",
+  "name" : "test03 - Add Task With Blue Color And Verify",
+  "time" : {
+    "start" : 1613486582083,
+    "stop" : 1613486604635,
+    "duration" : 22552
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fade4ebff42d0aa4",
+  "name" : "test01 - Add And Verify New Task",
+  "time" : {
+    "start" : 1613486551683,
+    "stop" : 1613486558479,
+    "duration" : 6796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d8cb93a5b3af086",
+  "name" : "test03 - Verify New User",
+  "time" : {
+    "start" : 1613486589192,
+    "stop" : 1613486598865,
+    "duration" : 9673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0163684d056ae8e",
+  "name" : "test02 - Add Team and Verify in Grafana API",
+  "time" : {
+    "start" : 1613486554638,
+    "stop" : 1613486556509,
+    "duration" : 1871
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72515e922ab0a9d1",
+  "name" : "test01 - Verify Header",
+  "time" : {
+    "start" : 1613486563459,
+    "stop" : 1613486582112,
+    "duration" : 18653
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2e3eb92490bdcf6",
+  "name" : "test08 - Drag And Drop The Title",
+  "time" : {
+    "start" : 1613486650571,
+    "stop" : 1613486655788,
+    "duration" : 5217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b7b0591b644fbae",
+  "name" : "test04 - Verify User Deletion",
+  "time" : {
+    "start" : 1613486599868,
+    "stop" : 1613486604038,
+    "duration" : 4170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

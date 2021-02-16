@@ -1,0 +1,350 @@
+{
+  "uid" : "457118750b9e7f96",
+  "name" : "test06 - Verify Avatar Icon",
+  "fullName" : "sanity.GrafanaWeb.test06_verifyAvatarIcon",
+  "historyId" : "e50b56b6ece40f15712a479dfdd59779",
+  "time" : {
+    "start" : 1613486606025,
+    "stop" : 1613486610426,
+    "duration" : 4401
+  },
+  "description" : "This Test verifies the Avatar Image Using Sikuli tool",
+  "descriptionHtml" : "<p>This Test verifies the Avatar Image Using Sikuli tool</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1613486605967,
+      "stop" : 1613486606009,
+      "duration" : 42
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1613486523537,
+      "stop" : 1613486560765,
+      "duration" : 37228
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This Test verifies the Avatar Image Using Sikuli tool",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify Element Visually",
+      "time" : {
+        "start" : 1613486606025,
+        "stop" : 1613486610261,
+        "duration" : 4236
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expectedImageName",
+        "value" : "GrafanaAvater"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1613486610443,
+      "stop" : 1613486611660,
+      "duration" : 1217
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1613486656089,
+      "stop" : 1613486657815,
+      "duration" : 1726
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test06_verifyAvatarIcon"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "N15538C"
+  }, {
+    "name" : "thread",
+    "value" : "27724@N15538C.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 4,
+        "skipped" : 1,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 20
+      },
+      "items" : [ {
+        "uid" : "fbb8dd55f78d1bfe",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/fbb8dd55f78d1bfe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613486235266,
+          "stop" : 1613486239878,
+          "duration" : 4612
+        }
+      }, {
+        "uid" : "25a0758136d58e8e",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/25a0758136d58e8e",
+        "status" : "failed",
+        "statusDetails" : "Error Conparing Image File: FindFailed: C:\\\\FinalProjectAutomation\\\\FinalProject\\\\ImageRepository\\\\GrafanaAvater.png: (39x37) in R[0,0 1366x768]@S(0)\n  Line 2287, in file Region.java\n",
+        "time" : {
+          "start" : 1613421636502,
+          "stop" : 1613421639929,
+          "duration" : 3427
+        }
+      }, {
+        "uid" : "99be74a24a8ec0ee",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/99be74a24a8ec0ee",
+        "status" : "failed",
+        "statusDetails" : "Error Conparing Image File: FindFailed: C:\\\\FinalProjectAutomation\\\\FinalProject\\\\ImageRepository\\\\GrafanaAvater.png: (39x37) in R[0,0 1366x768]@S(0)\n  Line 2287, in file Region.java\n",
+        "time" : {
+          "start" : 1613371476770,
+          "stop" : 1613371479294,
+          "duration" : 2524
+        }
+      }, {
+        "uid" : "290230ba9152e724",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/290230ba9152e724",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612780513663,
+          "stop" : 1612780515474,
+          "duration" : 1811
+        }
+      }, {
+        "uid" : "b862e1d3f98d5034",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/b862e1d3f98d5034",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612768697390,
+          "stop" : 1612768699953,
+          "duration" : 2563
+        }
+      }, {
+        "uid" : "d441eee5f4a3aed5",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/4/allure/#testresult/d441eee5f4a3aed5",
+        "status" : "failed",
+        "statusDetails" : "Error Conparing Image File: FindFailed: C:\\\\FinalProjectAutomation\\\\FinalProject\\\\ImageRepository\\\\GrafanaAvater.png: (39x37) in R[0,0 1366x768]@S(0)\n  Line 2287, in file Region.java\n",
+        "time" : {
+          "start" : 1612681628800,
+          "stop" : 1612681632079,
+          "duration" : 3279
+        }
+      }, {
+        "uid" : "d1635a947ff3bf71",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/24/allure/#testresult/d1635a947ff3bf71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612558348559,
+          "stop" : 1612558349923,
+          "duration" : 1364
+        }
+      }, {
+        "uid" : "732b09b9b9094cb7",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/23/allure/#testresult/732b09b9b9094cb7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612557637777,
+          "stop" : 1612557640434,
+          "duration" : 2657
+        }
+      }, {
+        "uid" : "ddbc6ad0066ee0a0",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/22/allure/#testresult/ddbc6ad0066ee0a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612553582883,
+          "stop" : 1612553584510,
+          "duration" : 1627
+        }
+      }, {
+        "uid" : "24452eead607689a",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/21/allure/#testresult/24452eead607689a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612553271740,
+          "stop" : 1612553273572,
+          "duration" : 1832
+        }
+      }, {
+        "uid" : "6bd24baed7f9e7bc",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/20/allure/#testresult/6bd24baed7f9e7bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612550841842,
+          "stop" : 1612550847314,
+          "duration" : 5472
+        }
+      }, {
+        "uid" : "e7ec402427b6d1a0",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/19/allure/#testresult/e7ec402427b6d1a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612550841842,
+          "stop" : 1612550847314,
+          "duration" : 5472
+        }
+      }, {
+        "uid" : "81f81af6a444c209",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/18/allure/#testresult/81f81af6a444c209",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612550841842,
+          "stop" : 1612550847314,
+          "duration" : 5472
+        }
+      }, {
+        "uid" : "4dd97fb7b46de2db",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/17/allure/#testresult/4dd97fb7b46de2db",
+        "status" : "failed",
+        "statusDetails" : "Error Conparing Image File: FindFailed: C:\\\\FinalProjectAutomation\\\\FinalProject\\\\ImageRepository\\\\GrafanaAvater.png: (39x37) in R[0,0 1366x768]@S(0)\n  Line 2287, in file Region.java\n",
+        "time" : {
+          "start" : 1612550705148,
+          "stop" : 1612550707629,
+          "duration" : 2481
+        }
+      }, {
+        "uid" : "5bf5247097144f13",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/16/allure/#testresult/5bf5247097144f13",
+        "status" : "broken",
+        "statusDetails" : "com.sun.jna.Native.load(Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;)Lcom/sun/jna/Library;",
+        "time" : {
+          "start" : 1612548644870,
+          "stop" : 1612548647070,
+          "duration" : 2200
+        }
+      }, {
+        "uid" : "f6bbd1e1985346e3",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/15/allure/#testresult/f6bbd1e1985346e3",
+        "status" : "broken",
+        "statusDetails" : "com.sun.jna.Native.load(Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;)Lcom/sun/jna/Library;",
+        "time" : {
+          "start" : 1612548183134,
+          "stop" : 1612548185146,
+          "duration" : 2012
+        }
+      }, {
+        "uid" : "227094b3961e1554",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/14/allure/#testresult/227094b3961e1554",
+        "status" : "broken",
+        "statusDetails" : "com.sun.jna.Native.load(Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;)Lcom/sun/jna/Library;",
+        "time" : {
+          "start" : 1612547625524,
+          "stop" : 1612547628935,
+          "duration" : 3411
+        }
+      }, {
+        "uid" : "52ab41b1761f975a",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/13/allure/#testresult/52ab41b1761f975a",
+        "status" : "broken",
+        "statusDetails" : "com.sun.jna.Native.load(Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;)Lcom/sun/jna/Library;",
+        "time" : {
+          "start" : 1612453323089,
+          "stop" : 1612453324399,
+          "duration" : 1310
+        }
+      }, {
+        "uid" : "78a696320f4b9826",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/10/allure/#testresult/78a696320f4b9826",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1612452665091,
+          "stop" : 1612452665093,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "457118750b9e7f96.json",
+  "parameterValues" : [ "web" ]
+}

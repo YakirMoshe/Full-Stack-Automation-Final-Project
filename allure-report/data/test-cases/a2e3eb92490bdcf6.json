@@ -1,0 +1,300 @@
+{
+  "uid" : "a2e3eb92490bdcf6",
+  "name" : "test08 - Drag And Drop The Title",
+  "fullName" : "sanity.GrafanaWeb.test08_dragAndDropHeader",
+  "historyId" : "753a9fdcce1a5d1260114ba803a6cc35",
+  "time" : {
+    "start" : 1613486650571,
+    "stop" : 1613486655788,
+    "duration" : 5217
+  },
+  "description" : "This Test drag and drop the title and verifies the main header",
+  "descriptionHtml" : "<p>This Test drag and drop the title and verifies the main header</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1613486650262,
+      "stop" : 1613486650558,
+      "duration" : 296
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1613486523537,
+      "stop" : 1613486560765,
+      "duration" : 37228
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This Test drag and drop the title and verifies the main header",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Drag And Drop The Title",
+      "time" : {
+        "start" : 1613486650571,
+        "stop" : 1613486655544,
+        "duration" : 4973
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Mouse Hover Element",
+        "time" : {
+          "start" : 1613486650687,
+          "stop" : 1613486651345,
+          "duration" : 658
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (a5de0a6fb9956e5350739dd43ed39f38)] -> xpath: //*[@id='panel-1']/div/div/div/plugin-component/panel-plugin-text/grafana-panel/div/div[1]]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "drag And Drop Element",
+        "time" : {
+          "start" : 1613486651508,
+          "stop" : 1613486652098,
+          "duration" : 590
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "draggable",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (a5de0a6fb9956e5350739dd43ed39f38)] -> xpath: //*[@id='panel-1']/div/div/div/plugin-component/panel-plugin-text/grafana-panel/div/div[1]]"
+        }, {
+          "name" : "droppable",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (a5de0a6fb9956e5350739dd43ed39f38)] -> xpath: //div[@id='panel-3']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Scroll Down The Page",
+        "time" : {
+          "start" : 1613486652144,
+          "stop" : 1613486652176,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (a5de0a6fb9956e5350739dd43ed39f38)] -> css selector: p[ng-bind-html='ctrl.content']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1613486652208,
+          "stop" : 1613486652530,
+          "duration" : 322
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (a5de0a6fb9956e5350739dd43ed39f38)] -> xpath: //*[@id='panel-1']/div/div/div/plugin-component/panel-plugin-text/grafana-panel/div/div[1]]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    }, {
+      "name" : "Verify Text In Element",
+      "time" : {
+        "start" : 1613486655574,
+        "stop" : 1613486655654,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (a5de0a6fb9956e5350739dd43ed39f38)] -> xpath: //div[@class='text-center dashboard-header']/span]"
+      }, {
+        "name" : "expected",
+        "value" : "Home Dashboard"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1613486655795,
+      "stop" : 1613486656079,
+      "duration" : 284
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1613486656089,
+      "stop" : 1613486657815,
+      "duration" : 1726
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test08_dragAndDropHeader"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "N15538C"
+  }, {
+    "name" : "thread",
+    "value" : "27724@N15538C.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "897a2cbda3f08c32",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/897a2cbda3f08c32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613486284728,
+          "stop" : 1613486291618,
+          "duration" : 6890
+        }
+      }, {
+        "uid" : "fcab73bbdb209507",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/fcab73bbdb209507",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613421679109,
+          "stop" : 1613421685046,
+          "duration" : 5937
+        }
+      }, {
+        "uid" : "609de7c2c74b2b6c",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/609de7c2c74b2b6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613371517672,
+          "stop" : 1613371523957,
+          "duration" : 6285
+        }
+      }, {
+        "uid" : "959fd6998e7a77c5",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/959fd6998e7a77c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613286853360,
+          "stop" : 1613286860127,
+          "duration" : 6767
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a2e3eb92490bdcf6.json",
+  "parameterValues" : [ "web" ]
+}

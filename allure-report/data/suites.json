@@ -1,0 +1,300 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "API Suite",
+    "children" : [ {
+      "name" : "API Tests",
+      "children" : [ {
+        "name" : "sanity.GrafanaAPI",
+        "children" : [ {
+          "name" : "test01 - Get Team From Grafana API",
+          "uid" : "5b69253917529d75",
+          "parentUid" : "5fab9f1c0fb7e13f91fbbeeba7e0c8fb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486540334,
+            "stop" : 1613486554552,
+            "duration" : 14218
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "test02 - Add Team and Verify in Grafana API",
+          "uid" : "b0163684d056ae8e",
+          "parentUid" : "5fab9f1c0fb7e13f91fbbeeba7e0c8fb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486554638,
+            "stop" : 1613486556509,
+            "duration" : 1871
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "test03 - Update Team and Verify",
+          "uid" : "544cde5eb78d6256",
+          "parentUid" : "5fab9f1c0fb7e13f91fbbeeba7e0c8fb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486556815,
+            "stop" : 1613486557534,
+            "duration" : 719
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        }, {
+          "name" : "test04 - Delete Team and Verify",
+          "uid" : "37dedf1a6e640416",
+          "parentUid" : "5fab9f1c0fb7e13f91fbbeeba7e0c8fb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486557652,
+            "stop" : 1613486558603,
+            "duration" : 951
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        } ],
+        "uid" : "5fab9f1c0fb7e13f91fbbeeba7e0c8fb"
+      } ],
+      "uid" : "641ed32f39a13a3f85075c9e9886f7f5"
+    } ],
+    "uid" : "b4bbb500a93f01b8e625a12c443cf9dd"
+  }, {
+    "name" : "Electron Suite",
+    "children" : [ {
+      "name" : "Electron Tests",
+      "children" : [ {
+        "name" : "sanity.TodoListElectron",
+        "children" : [ {
+          "name" : "test01 - Add And Verify New Task",
+          "uid" : "fade4ebff42d0aa4",
+          "parentUid" : "cee6a47ca6126860e175a3dcf1eb8a84",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486551683,
+            "stop" : 1613486558479,
+            "duration" : 6796
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        }, {
+          "name" : "test02 - Add And Verify New Task",
+          "uid" : "984780cd2c146d6",
+          "parentUid" : "cee6a47ca6126860e175a3dcf1eb8a84",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486560640,
+            "stop" : 1613486576506,
+            "duration" : 15866
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        }, {
+          "name" : "test03 - Add Task With Blue Color And Verify",
+          "uid" : "77bf0fae3b1845a9",
+          "parentUid" : "cee6a47ca6126860e175a3dcf1eb8a84",
+          "status" : "failed",
+          "time" : {
+            "start" : 1613486582083,
+            "stop" : 1613486604635,
+            "duration" : 22552
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        }, {
+          "name" : "test04 - Mark a task performed And Verify marking ",
+          "uid" : "b31cadaed404af9f",
+          "parentUid" : "cee6a47ca6126860e175a3dcf1eb8a84",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486605342,
+            "stop" : 1613486615388,
+            "duration" : 10046
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        } ],
+        "uid" : "cee6a47ca6126860e175a3dcf1eb8a84"
+      } ],
+      "uid" : "7e8f470af5ee8658e53c49017794daff"
+    } ],
+    "uid" : "ba8d12a976d74943fc854e5acbb7d9f1"
+  }, {
+    "name" : "DB Suite",
+    "children" : [ {
+      "name" : "DB Tests",
+      "children" : [ {
+        "name" : "sanity.GrafanaWebDB",
+        "children" : [ {
+          "name" : "test01 - Login to Grafana with DB Credentials",
+          "uid" : "1384cfaafb275ddc",
+          "parentUid" : "997148a6fe10444a594d8126a1712a48",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486561852,
+            "stop" : 1613486581887,
+            "duration" : 20035
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "webdb" ]
+        } ],
+        "uid" : "997148a6fe10444a594d8126a1712a48"
+      } ],
+      "uid" : "420ed3d3bc0f70b2ee88389dc3325083"
+    } ],
+    "uid" : "9424f8acbb37869a7c8739eece4f6a52"
+  }, {
+    "name" : "Web Suite",
+    "children" : [ {
+      "name" : "Web Tests",
+      "children" : [ {
+        "name" : "sanity.GrafanaWeb",
+        "children" : [ {
+          "name" : "test01 - Verify Header",
+          "uid" : "72515e922ab0a9d1",
+          "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486563459,
+            "stop" : 1613486582112,
+            "duration" : 18653
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "test02 - Default Users",
+          "uid" : "66fc8dd3b1610984",
+          "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486583622,
+            "stop" : 1613486588136,
+            "duration" : 4514
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "test03 - Verify New User",
+          "uid" : "9d8cb93a5b3af086",
+          "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486589192,
+            "stop" : 1613486598865,
+            "duration" : 9673
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "test04 - Verify User Deletion",
+          "uid" : "7b7b0591b644fbae",
+          "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486599868,
+            "stop" : 1613486604038,
+            "duration" : 4170
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "test05 - Verify Progress Steps",
+          "uid" : "37657c2ae716b863",
+          "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486604808,
+            "stop" : 1613486605396,
+            "duration" : 588
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "test06 - Verify Avatar Icon",
+          "uid" : "457118750b9e7f96",
+          "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486606025,
+            "stop" : 1613486610426,
+            "duration" : 4401
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "test07 - Search Users",
+          "uid" : "4bd3929071528a8a",
+          "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486611944,
+            "stop" : 1613486628146,
+            "duration" : 16202
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web", "yakir", "not-exist" ]
+        }, {
+          "name" : "test07 - Search Users",
+          "uid" : "39aef3b0bd8bd696",
+          "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486628630,
+            "stop" : 1613486633191,
+            "duration" : 4561
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web", "admin", "exists" ]
+        }, {
+          "name" : "test07 - Search Users",
+          "uid" : "ea60b97a857cbdc3",
+          "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486633821,
+            "stop" : 1613486649205,
+            "duration" : 15384
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web", "david", "not-exist" ]
+        }, {
+          "name" : "test08 - Drag And Drop The Title",
+          "uid" : "a2e3eb92490bdcf6",
+          "parentUid" : "c5b0eafa658485fa3314b91a9998509c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613486650571,
+            "stop" : 1613486655788,
+            "duration" : 5217
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        } ],
+        "uid" : "c5b0eafa658485fa3314b91a9998509c"
+      } ],
+      "uid" : "fbd747309552d470d458686a49ca6eb7"
+    } ],
+    "uid" : "3ee6c328cd13b7bf8cf2e1560d3cdfae"
+  } ]
+}

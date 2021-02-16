@@ -1,0 +1,276 @@
+{
+  "uid" : "ea60b97a857cbdc3",
+  "name" : "test07 - Search Users",
+  "fullName" : "sanity.GrafanaWeb.test07_searchUsers",
+  "historyId" : "a5aa79b08c40574595073e7ec2a0fa29",
+  "time" : {
+    "start" : 1613486633821,
+    "stop" : 1613486649205,
+    "duration" : 15384
+  },
+  "description" : "This Test Searched Users in a table using DDT",
+  "descriptionHtml" : "<p>This Test Searched Users in a table using DDT</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1613486633766,
+      "stop" : 1613486633808,
+      "duration" : 42
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1613486523537,
+      "stop" : 1613486560765,
+      "duration" : 37228
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This Test Searched Users in a table using DDT",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Mouse Hover Element",
+      "time" : {
+        "start" : 1613486634001,
+        "stop" : 1613486634687,
+        "duration" : 686
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem1",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (a5de0a6fb9956e5350739dd43ed39f38)] -> xpath: //div[@class='sidemenu-item dropdown'][6]]"
+      }, {
+        "name" : "elem2",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (a5de0a6fb9956e5350739dd43ed39f38)] -> xpath: //a[@href='/admin/users']]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Business Flow: Search And Verify User",
+      "time" : {
+        "start" : 1613486634687,
+        "stop" : 1613486648972,
+        "duration" : 14285
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update Text Element as Human",
+        "time" : {
+          "start" : 1613486634748,
+          "stop" : 1613486638841,
+          "duration" : 4093
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (a5de0a6fb9956e5350739dd43ed39f38)] -> css selector: input[ng-model='ctrl.query']]"
+        }, {
+          "name" : "text",
+          "value" : "david"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Verify Element Not Displayed",
+        "time" : {
+          "start" : 1613486643934,
+          "stop" : 1613486648972,
+          "duration" : 5038
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elements",
+          "value" : "[]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "david"
+      }, {
+        "name" : "shouldExists",
+        "value" : "not-exist"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1613486649306,
+      "stop" : 1613486650252,
+      "duration" : 946
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1613486656089,
+      "stop" : 1613486657815,
+      "duration" : 1726
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test07_searchUsers"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "N15538C"
+  }, {
+    "name" : "thread",
+    "value" : "27724@N15538C.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  }, {
+    "name" : "arg0",
+    "value" : "david"
+  }, {
+    "name" : "arg1",
+    "value" : "not-exist"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "1ebaff5bb937e066",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/1ebaff5bb937e066",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613486267131,
+          "stop" : 1613486282907,
+          "duration" : 15776
+        }
+      }, {
+        "uid" : "76801d2738dde2da",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/76801d2738dde2da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613421663281,
+          "stop" : 1613421678404,
+          "duration" : 15123
+        }
+      }, {
+        "uid" : "9c3ebb8fc29e8e7a",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/9c3ebb8fc29e8e7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613371501892,
+          "stop" : 1613371516919,
+          "duration" : 15027
+        }
+      }, {
+        "uid" : "35220bf20b0d6dcc",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/35220bf20b0d6dcc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612780637651,
+          "stop" : 1612780651187,
+          "duration" : 13536
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ea60b97a857cbdc3.json",
+  "parameterValues" : [ "web", "david", "not-exist" ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Electron Suite]">
+  <parameter name="PlatformName" value="electron"/>
+  <test name="Electron Tests">
+    <parameter name="PlatformName" value="electron"/>
+    <classes>
+      <class name="sanity.TodoListElectron"/>
+    </classes>
+  </test> <!-- Electron Tests -->
+  <test name="Electron Tests(failed)">
+    <parameter name="PlatformName" value="electron"/>
+    <classes>
+      <class name="sanity.TodoListElectron">
+        <methods>
+          <include name="startSession"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="test03_AddWithColorAndVerifyNewTask"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- sanity.TodoListElectron -->
+    </classes>
+  </test> <!-- Electron Tests(failed) -->
+</suite> <!-- Failed suite [Electron Suite] -->

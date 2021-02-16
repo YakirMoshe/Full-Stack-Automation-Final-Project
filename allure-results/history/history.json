@@ -1,0 +1,2771 @@
+{
+  "67d1ce1809efd09b777f89a46b66545a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 5,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "6ea2b02d66b99cc1",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/6ea2b02d66b99cc1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613160096696,
+        "stop" : 1613160096710,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "3fa9bc549f5c373b",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/3fa9bc549f5c373b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613160096696,
+        "stop" : 1613160096710,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "ec484e51155b231d",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/ec484e51155b231d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613160096696,
+        "stop" : 1613160096710,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "70f23cef5f079747",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/70f23cef5f079747",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613160096696,
+        "stop" : 1613160096710,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "6a40d1ce69f5a3ea",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/8/allure/#testresult/6a40d1ce69f5a3ea",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613160096696,
+        "stop" : 1613160096710,
+        "duration" : 14
+      }
+    } ]
+  },
+  "c38eaca9902aacecc2c4e2320dafdbbb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "1ce400085359b5a8",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/1ce400085359b5a8",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1613286818240,
+        "stop" : 1613286818257,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "d5b717285a13f45c",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/d5b717285a13f45c",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1613286818240,
+        "stop" : 1613286818257,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "b90d5b23027567e0",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/b90d5b23027567e0",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1613286818240,
+        "stop" : 1613286818257,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "11fae86db8930250",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/11fae86db8930250",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1613286818240,
+        "stop" : 1613286818257,
+        "duration" : 17
+      }
+    } ]
+  },
+  "386463ae561f440bbf663e66148d95ef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c3f731e3a46244",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/c3f731e3a46244",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//label//*[name() ='circle'][@stroke='#ededed'])[2]\"}\n  (Session info: chrome=83.0.4103.122)\n  (Driver info: chromedriver=2.36 (7ea271f92018b1eeb8e70ec6de8c29f9758a0c05),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'N15538C', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36 (7ea271f92018b1eeb8e70..., userDataDir: C:\\Users\\y26634\\AppData\\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.122, webStorageEnabled: true}\nSession ID: 12afc7b00250a32ff27482cbc1b84506\n*** Element info: {Using=xpath, value=(//label//*[name() ='circle'][@stroke='#ededed'])[2]}",
+      "time" : {
+        "start" : 1613409285217,
+        "stop" : 1613409442093,
+        "duration" : 156876
+      }
+    }, {
+      "uid" : "8bb0cbd6e2dc489c",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/8bb0cbd6e2dc489c",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//label//*[name() ='circle'][@stroke='#ededed'])[2]\"}\n  (Session info: chrome=83.0.4103.122)\n  (Driver info: chromedriver=2.36 (7ea271f92018b1eeb8e70ec6de8c29f9758a0c05),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'N15538C', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36 (7ea271f92018b1eeb8e70..., userDataDir: C:\\Users\\y26634\\AppData\\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.122, webStorageEnabled: true}\nSession ID: 12afc7b00250a32ff27482cbc1b84506\n*** Element info: {Using=xpath, value=(//label//*[name() ='circle'][@stroke='#ededed'])[2]}",
+      "time" : {
+        "start" : 1613409285217,
+        "stop" : 1613409442093,
+        "duration" : 156876
+      }
+    } ]
+  },
+  "a5d3c81f27fa41f53fcc72de681b1d30" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 10
+    },
+    "items" : [ {
+      "uid" : "17fe6f16ff30c24d",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/17fe6f16ff30c24d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486204434,
+        "stop" : 1613486221171,
+        "duration" : 16737
+      }
+    }, {
+      "uid" : "d9151e97c3f990f1",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/d9151e97c3f990f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613394779980,
+        "stop" : 1613394781216,
+        "duration" : 1236
+      }
+    }, {
+      "uid" : "b64f15c6d2fdef9b",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/b64f15c6d2fdef9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613371445064,
+        "stop" : 1613371454270,
+        "duration" : 9206
+      }
+    }, {
+      "uid" : "2931774772f7a61b",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/2931774772f7a61b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613286818821,
+        "stop" : 1613286818823,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "8d89e6429a312e92",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/8/allure/#testresult/8d89e6429a312e92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613156851446,
+        "stop" : 1613156852237,
+        "duration" : 791
+      }
+    }, {
+      "uid" : "3e1c765d2b5c09ec",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/3e1c765d2b5c09ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612816880062,
+        "stop" : 1612816888253,
+        "duration" : 8191
+      }
+    }, {
+      "uid" : "61de2fd89a3f4b27",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/61de2fd89a3f4b27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612768660575,
+        "stop" : 1612768685904,
+        "duration" : 25329
+      }
+    }, {
+      "uid" : "e22c31a228b3658e",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/4/allure/#testresult/e22c31a228b3658e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612681609595,
+        "stop" : 1612681621737,
+        "duration" : 12142
+      }
+    }, {
+      "uid" : "814671d24de22f36",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/24/allure/#testresult/814671d24de22f36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612558337304,
+        "stop" : 1612558342671,
+        "duration" : 5367
+      }
+    }, {
+      "uid" : "a999e7efab944d1c",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/23/allure/#testresult/a999e7efab944d1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612557624242,
+        "stop" : 1612557627134,
+        "duration" : 2892
+      }
+    } ]
+  },
+  "692a85dceffd9a9e2c0604ab579a22d9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "10fccad0be0a3c69",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/10fccad0be0a3c69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486261273,
+        "stop" : 1613486266488,
+        "duration" : 5215
+      }
+    }, {
+      "uid" : "550193880a5e8f76",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/550193880a5e8f76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613421658071,
+        "stop" : 1613421662715,
+        "duration" : 4644
+      }
+    }, {
+      "uid" : "ae8fbb9b513dd3cc",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/ae8fbb9b513dd3cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613371495221,
+        "stop" : 1613371501337,
+        "duration" : 6116
+      }
+    }, {
+      "uid" : "c30c571e95834476",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/c30c571e95834476",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612816903875,
+        "stop" : 1612816908096,
+        "duration" : 4221
+      }
+    } ]
+  },
+  "e24504c15b6f6141a6bc2dc2e2276b9d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "c754e02c695c7987",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/c754e02c695c7987",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1613485740900,
+        "stop" : 1613485740903,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "75aabf51bd66192e",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/75aabf51bd66192e",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1613421596166,
+        "stop" : 1613421596167,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "edfa9694cd21ec93",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/edfa9694cd21ec93",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1613371424944,
+        "stop" : 1613371424946,
+        "duration" : 2
+      }
+    } ]
+  },
+  "e91470de04fd05ea86e598bc79992c68" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 16,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 16
+    },
+    "items" : [ {
+      "uid" : "b1d456fba8ef1272",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/b1d456fba8ef1272",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612780394829,
+        "stop" : 1612780394831,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "437319bcda5509c5",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/437319bcda5509c5",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612768700332,
+        "stop" : 1612768700334,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "8622733c773c252a",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/4/allure/#testresult/8622733c773c252a",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612681632523,
+        "stop" : 1612681632523,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d07c2cf2460f79da",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/24/allure/#testresult/d07c2cf2460f79da",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612558350359,
+        "stop" : 1612558350360,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ca79c7d63f4e8b04",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/23/allure/#testresult/ca79c7d63f4e8b04",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612557641001,
+        "stop" : 1612557641003,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "e0b1941353eb773f",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/22/allure/#testresult/e0b1941353eb773f",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612553584993,
+        "stop" : 1612553584993,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "afdaff11d8ce97fd",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/21/allure/#testresult/afdaff11d8ce97fd",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612553274088,
+        "stop" : 1612553274091,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "59417553e9b4c461",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/20/allure/#testresult/59417553e9b4c461",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612553188810,
+        "stop" : 1612553188819,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "ec9b22532751f02a",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/19/allure/#testresult/ec9b22532751f02a",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612553138902,
+        "stop" : 1612553138907,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "c7af3d39cac8efac",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/18/allure/#testresult/c7af3d39cac8efac",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612553062221,
+        "stop" : 1612553062229,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "d66600585486ad96",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/17/allure/#testresult/d66600585486ad96",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612550707925,
+        "stop" : 1612550707925,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e8751ac631f9fa82",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/16/allure/#testresult/e8751ac631f9fa82",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612548647523,
+        "stop" : 1612548647523,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "21e1604f2c4fe66e",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/15/allure/#testresult/21e1604f2c4fe66e",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612548185623,
+        "stop" : 1612548185623,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e52f0028e0be48f9",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/14/allure/#testresult/e52f0028e0be48f9",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612547629489,
+        "stop" : 1612547629490,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ee86b280e47d281e",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/13/allure/#testresult/ee86b280e47d281e",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612453324617,
+        "stop" : 1612453324617,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7acb8a02a0d0ce6",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/10/allure/#testresult/7acb8a02a0d0ce6",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612452665116,
+        "stop" : 1612452665116,
+        "duration" : 0
+      }
+    } ]
+  },
+  "bd60bca24507bba1dad99d6be0b6ebdf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    },
+    "items" : [ {
+      "uid" : "122158a3c928443f",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/122158a3c928443f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486196322,
+        "stop" : 1613486215815,
+        "duration" : 19493
+      }
+    }, {
+      "uid" : "730572c9c1f5c46d",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/730572c9c1f5c46d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613421610283,
+        "stop" : 1613421617762,
+        "duration" : 7479
+      }
+    }, {
+      "uid" : "dab6ecb50cc78b0b",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/dab6ecb50cc78b0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613371447730,
+        "stop" : 1613371456435,
+        "duration" : 8705
+      }
+    }, {
+      "uid" : "2ea8f8e45bf22d19",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/2ea8f8e45bf22d19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613286836052,
+        "stop" : 1613286846107,
+        "duration" : 10055
+      }
+    }, {
+      "uid" : "ea12694f93db3c02",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/8/allure/#testresult/ea12694f93db3c02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613160195183,
+        "stop" : 1613160198106,
+        "duration" : 2923
+      }
+    }, {
+      "uid" : "1242d22b09eeceaa",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/1242d22b09eeceaa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612816877171,
+        "stop" : 1612816885333,
+        "duration" : 8162
+      }
+    }, {
+      "uid" : "fb81c92ae4bc87f8",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/fb81c92ae4bc87f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612768662759,
+        "stop" : 1612768679172,
+        "duration" : 16413
+      }
+    }, {
+      "uid" : "5b8bfbd5f4da99f7",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/4/allure/#testresult/5b8bfbd5f4da99f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612681600055,
+        "stop" : 1612681612282,
+        "duration" : 12227
+      }
+    }, {
+      "uid" : "dccc8034905b74f6",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/24/allure/#testresult/dccc8034905b74f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612558332750,
+        "stop" : 1612558339791,
+        "duration" : 7041
+      }
+    }, {
+      "uid" : "78dadea9a068a3ba",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/23/allure/#testresult/78dadea9a068a3ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612557573853,
+        "stop" : 1612557577690,
+        "duration" : 3837
+      }
+    } ]
+  },
+  "44d93c79d9ee12aa26237797098c5af6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 5,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "c6a7f986420753a1",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/c6a7f986420753a1",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by @Configuration on method startSession but has not been marked @Optional or defined\nin C:\\Users\\y26634\\AppData\\Local\\JetBrains\\IdeaIC2020.3\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1613160096455,
+        "stop" : 1613160096461,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "1bcf27f62d70e33a",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/1bcf27f62d70e33a",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by @Configuration on method startSession but has not been marked @Optional or defined\nin C:\\Users\\y26634\\AppData\\Local\\JetBrains\\IdeaIC2020.3\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1613160096455,
+        "stop" : 1613160096461,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "ab549bdd160cd63a",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/ab549bdd160cd63a",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by @Configuration on method startSession but has not been marked @Optional or defined\nin C:\\Users\\y26634\\AppData\\Local\\JetBrains\\IdeaIC2020.3\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1613160096455,
+        "stop" : 1613160096461,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "a05c4ca4157f0b91",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/a05c4ca4157f0b91",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by @Configuration on method startSession but has not been marked @Optional or defined\nin C:\\Users\\y26634\\AppData\\Local\\JetBrains\\IdeaIC2020.3\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1613160096455,
+        "stop" : 1613160096461,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "fec4a397efc2fdc0",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/8/allure/#testresult/fec4a397efc2fdc0",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by @Configuration on method startSession but has not been marked @Optional or defined\nin C:\\Users\\y26634\\AppData\\Local\\JetBrains\\IdeaIC2020.3\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1613160096455,
+        "stop" : 1613160096461,
+        "duration" : 6
+      }
+    } ]
+  },
+  "14bc8d4d2989fbfe22c7b731b2b3b55d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "3614eb564f796275",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/3614eb564f796275",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612722176496,
+        "stop" : 1612722176496,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "36a7d28c1b44d813",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/36a7d28c1b44d813",
+      "status" : "skipped",
+      "statusDetails" : "Can't invoke method public java.lang.Object[][] utilities.ManageDDT.getDataObject() on this instance of class sanity.GrafanaWeb due to class mismatch",
+      "time" : {
+        "start" : 1612722176496,
+        "stop" : 1612722176496,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7d84da09a703e7394c32cfbab272f0a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 10
+    },
+    "items" : [ {
+      "uid" : "f1eeb653a693da0",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/f1eeb653a693da0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486189960,
+        "stop" : 1613486202486,
+        "duration" : 12526
+      }
+    }, {
+      "uid" : "5965c1513a6c7c61",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/5965c1513a6c7c61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613394778785,
+        "stop" : 1613394779627,
+        "duration" : 842
+      }
+    }, {
+      "uid" : "f7ecae243df8fc8f",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/f7ecae243df8fc8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613371434318,
+        "stop" : 1613371442270,
+        "duration" : 7952
+      }
+    }, {
+      "uid" : "dc5c7f48eed83de7",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/dc5c7f48eed83de7",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613286818792,
+        "stop" : 1613286818798,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "2032a325f7abb6c9",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/8/allure/#testresult/2032a325f7abb6c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613156850597,
+        "stop" : 1613156851178,
+        "duration" : 581
+      }
+    }, {
+      "uid" : "bdade02b9cdda90f",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/bdade02b9cdda90f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612816865425,
+        "stop" : 1612816873489,
+        "duration" : 8064
+      }
+    }, {
+      "uid" : "53a3233e4d542b42",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/53a3233e4d542b42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612768634170,
+        "stop" : 1612768649157,
+        "duration" : 14987
+      }
+    }, {
+      "uid" : "b797d43493924a5d",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/4/allure/#testresult/b797d43493924a5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612681593220,
+        "stop" : 1612681602435,
+        "duration" : 9215
+      }
+    }, {
+      "uid" : "5a90bb5d6af425a3",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/24/allure/#testresult/5a90bb5d6af425a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612558327109,
+        "stop" : 1612558331644,
+        "duration" : 4535
+      }
+    }, {
+      "uid" : "f7776361c6ac9db5",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/23/allure/#testresult/f7776361c6ac9db5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612557616183,
+        "stop" : 1612557618701,
+        "duration" : 2518
+      }
+    } ]
+  },
+  "e3249a6afb8d2660a29815931fab3490" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "aa6f40a218425e92",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/aa6f40a218425e92",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//div//*[name()='svg'])[19]\"}\n  (Session info: chrome=83.0.4103.122)\n  (Driver info: chromedriver=2.36 (7ea271f92018b1eeb8e70ec6de8c29f9758a0c05),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'N15538C', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36 (7ea271f92018b1eeb8e70..., userDataDir: C:\\Users\\y26634\\AppData\\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.122, webStorageEnabled: true}\nSession ID: db49d91360ae114ebe838b343ed447a1\n*** Element info: {Using=xpath, value=(//div//*[name()='svg'])[19]}",
+      "time" : {
+        "start" : 1613409209567,
+        "stop" : 1613409226663,
+        "duration" : 17096
+      }
+    }, {
+      "uid" : "9d664e367748aaa",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/9d664e367748aaa",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//div//*[name()='svg'])[19]\"}\n  (Session info: chrome=83.0.4103.122)\n  (Driver info: chromedriver=2.36 (7ea271f92018b1eeb8e70ec6de8c29f9758a0c05),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'N15538C', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36 (7ea271f92018b1eeb8e70..., userDataDir: C:\\Users\\y26634\\AppData\\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.122, webStorageEnabled: true}\nSession ID: db49d91360ae114ebe838b343ed447a1\n*** Element info: {Using=xpath, value=(//div//*[name()='svg'])[19]}",
+      "time" : {
+        "start" : 1613409209567,
+        "stop" : 1613409226663,
+        "duration" : 17096
+      }
+    }, {
+      "uid" : "eee1e04af3cf1977",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/eee1e04af3cf1977",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression ((//*[name()='svg'][@class='handle dragIcon_1L0_R'])[1] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '((//*[name()='svg'][@class='handle dragIcon_1L0_R'])[1]' is not a valid XPath expression.\n  (Session info: chrome=83.0.4103.122)\n  (Driver info: chromedriver=2.36 (7ea271f92018b1eeb8e70ec6de8c29f9758a0c05),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'N15538C', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36 (7ea271f92018b1eeb8e70..., userDataDir: C:\\Users\\y26634\\AppData\\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.122, webStorageEnabled: true}\nSession ID: c34961f0872f93efc4be5b40ca2cdc25\n*** Element info: {Using=xpath, value=((//*[name()='svg'][@class='handle dragIcon_1L0_R'])[1]}",
+      "time" : {
+        "start" : 1613371473507,
+        "stop" : 1613371477460,
+        "duration" : 3953
+      }
+    }, {
+      "uid" : "1daaad6a58d818c3",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/1daaad6a58d818c3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613286818888,
+        "stop" : 1613286818889,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a5000f736594d6c3",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/8/allure/#testresult/a5000f736594d6c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613156864594,
+        "stop" : 1613156867766,
+        "duration" : 3172
+      }
+    } ]
+  },
+  "f599d8b43d6e4a30be4464e42e86c7a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 20,
+      "unknown" : 0,
+      "total" : 21
+    },
+    "items" : [ {
+      "uid" : "f2e0bf2f0e980c62",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/f2e0bf2f0e980c62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486220582,
+        "stop" : 1613486226038,
+        "duration" : 5456
+      }
+    }, {
+      "uid" : "21b21c25c0c8ae26",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/21b21c25c0c8ae26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613421621936,
+        "stop" : 1613421627453,
+        "duration" : 5517
+      }
+    }, {
+      "uid" : "b81c57ee9b35e79b",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/b81c57ee9b35e79b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613371458458,
+        "stop" : 1613371470501,
+        "duration" : 12043
+      }
+    }, {
+      "uid" : "6b74a5b24a03c5f7",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/6b74a5b24a03c5f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612780507878,
+        "stop" : 1612780509930,
+        "duration" : 2052
+      }
+    }, {
+      "uid" : "de2303ef924601a1",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/de2303ef924601a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612768688763,
+        "stop" : 1612768692583,
+        "duration" : 3820
+      }
+    }, {
+      "uid" : "e06fda301be965ef",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/4/allure/#testresult/e06fda301be965ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612681617311,
+        "stop" : 1612681623580,
+        "duration" : 6269
+      }
+    }, {
+      "uid" : "36f060b3b7565234",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/24/allure/#testresult/36f060b3b7565234",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612558339907,
+        "stop" : 1612558344585,
+        "duration" : 4678
+      }
+    }, {
+      "uid" : "fbe2783356eb62a8",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/23/allure/#testresult/fbe2783356eb62a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612557630933,
+        "stop" : 1612557633904,
+        "duration" : 2971
+      }
+    }, {
+      "uid" : "def9acf168919294",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/22/allure/#testresult/def9acf168919294",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612553575556,
+        "stop" : 1612553578328,
+        "duration" : 2772
+      }
+    }, {
+      "uid" : "1650edf392a45478",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/21/allure/#testresult/1650edf392a45478",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612553264466,
+        "stop" : 1612553267735,
+        "duration" : 3269
+      }
+    }, {
+      "uid" : "98a0884249e2a74f",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/20/allure/#testresult/98a0884249e2a74f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550835832,
+        "stop" : 1612550838390,
+        "duration" : 2558
+      }
+    }, {
+      "uid" : "8eaa4cead2b25315",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/19/allure/#testresult/8eaa4cead2b25315",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550835832,
+        "stop" : 1612550838390,
+        "duration" : 2558
+      }
+    }, {
+      "uid" : "aa54b790776ce379",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/18/allure/#testresult/aa54b790776ce379",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550835832,
+        "stop" : 1612550838390,
+        "duration" : 2558
+      }
+    }, {
+      "uid" : "814113a884405f24",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/17/allure/#testresult/814113a884405f24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550688815,
+        "stop" : 1612550700996,
+        "duration" : 12181
+      }
+    }, {
+      "uid" : "3145b7117866b32f",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/16/allure/#testresult/3145b7117866b32f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612548636526,
+        "stop" : 1612548639300,
+        "duration" : 2774
+      }
+    }, {
+      "uid" : "d5d05c45bc7147de",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/15/allure/#testresult/d5d05c45bc7147de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612548175235,
+        "stop" : 1612548178521,
+        "duration" : 3286
+      }
+    }, {
+      "uid" : "a07311238e2878c1",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/14/allure/#testresult/a07311238e2878c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612547618306,
+        "stop" : 1612547621209,
+        "duration" : 2903
+      }
+    }, {
+      "uid" : "6e52601f6a1563f8",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/13/allure/#testresult/6e52601f6a1563f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612453317759,
+        "stop" : 1612453319998,
+        "duration" : 2239
+      }
+    }, {
+      "uid" : "bf77df2e3a086823",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/12/allure/#testresult/bf77df2e3a086823",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612453257598,
+        "stop" : 1612453259848,
+        "duration" : 2250
+      }
+    }, {
+      "uid" : "fa0b243c7f81a73e",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/11/allure/#testresult/fa0b243c7f81a73e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612453082866,
+        "stop" : 1612453094402,
+        "duration" : 11536
+      }
+    } ]
+  },
+  "fa875645bbb38fae4c3897e04926616d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cff263a8477798a",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/cff263a8477798a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486244560,
+        "stop" : 1613486254977,
+        "duration" : 10417
+      }
+    } ]
+  },
+  "a5aa79b08c40574595073e7ec2a0fa29" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "1ebaff5bb937e066",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/1ebaff5bb937e066",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486267131,
+        "stop" : 1613486282907,
+        "duration" : 15776
+      }
+    }, {
+      "uid" : "76801d2738dde2da",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/76801d2738dde2da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613421663281,
+        "stop" : 1613421678404,
+        "duration" : 15123
+      }
+    }, {
+      "uid" : "9c3ebb8fc29e8e7a",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/9c3ebb8fc29e8e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613371501892,
+        "stop" : 1613371516919,
+        "duration" : 15027
+      }
+    }, {
+      "uid" : "35220bf20b0d6dcc",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/35220bf20b0d6dcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612780637651,
+        "stop" : 1612780651187,
+        "duration" : 13536
+      }
+    } ]
+  },
+  "37b31872c3a1e3f710e8430ffc4cecd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 20,
+      "unknown" : 0,
+      "total" : 21
+    },
+    "items" : [ {
+      "uid" : "9db6cf50ac039c44",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/9db6cf50ac039c44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486233747,
+        "stop" : 1613486234703,
+        "duration" : 956
+      }
+    }, {
+      "uid" : "eb6df9c91fd8337",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/eb6df9c91fd8337",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613421634991,
+        "stop" : 1613421635785,
+        "duration" : 794
+      }
+    }, {
+      "uid" : "b2130da1c180c6de",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/b2130da1c180c6de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613371475468,
+        "stop" : 1613371476250,
+        "duration" : 782
+      }
+    }, {
+      "uid" : "5c2e45a95e88ea7a",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/5c2e45a95e88ea7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612780512964,
+        "stop" : 1612780513341,
+        "duration" : 377
+      }
+    }, {
+      "uid" : "3ca41386baaee1ad",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/3ca41386baaee1ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612768696153,
+        "stop" : 1612768696809,
+        "duration" : 656
+      }
+    }, {
+      "uid" : "170f94a25fe7437c",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/4/allure/#testresult/170f94a25fe7437c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612681627703,
+        "stop" : 1612681628153,
+        "duration" : 450
+      }
+    }, {
+      "uid" : "5225ac9c55e6695d",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/24/allure/#testresult/5225ac9c55e6695d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612558347665,
+        "stop" : 1612558348117,
+        "duration" : 452
+      }
+    }, {
+      "uid" : "5410d9c5ca090e62",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/23/allure/#testresult/5410d9c5ca090e62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612557636875,
+        "stop" : 1612557637317,
+        "duration" : 442
+      }
+    }, {
+      "uid" : "75e7b47f0b3e9612",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/22/allure/#testresult/75e7b47f0b3e9612",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612553581984,
+        "stop" : 1612553582486,
+        "duration" : 502
+      }
+    }, {
+      "uid" : "fb2a09d7fa649d2f",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/21/allure/#testresult/fb2a09d7fa649d2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612553270933,
+        "stop" : 1612553271307,
+        "duration" : 374
+      }
+    }, {
+      "uid" : "f1fd1883c67333f5",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/20/allure/#testresult/f1fd1883c67333f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550841001,
+        "stop" : 1612550841437,
+        "duration" : 436
+      }
+    }, {
+      "uid" : "7051e376c827eaa",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/19/allure/#testresult/7051e376c827eaa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550841001,
+        "stop" : 1612550841437,
+        "duration" : 436
+      }
+    }, {
+      "uid" : "e2c2c66c30c6f918",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/18/allure/#testresult/e2c2c66c30c6f918",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550841001,
+        "stop" : 1612550841437,
+        "duration" : 436
+      }
+    }, {
+      "uid" : "f6484833c58539d5",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/17/allure/#testresult/f6484833c58539d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550704406,
+        "stop" : 1612550704840,
+        "duration" : 434
+      }
+    }, {
+      "uid" : "645163255acc1b4b",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/16/allure/#testresult/645163255acc1b4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612548643881,
+        "stop" : 1612548644329,
+        "duration" : 448
+      }
+    }, {
+      "uid" : "832143f698d86713",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/15/allure/#testresult/832143f698d86713",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612548182372,
+        "stop" : 1612548182815,
+        "duration" : 443
+      }
+    }, {
+      "uid" : "77a521eabe162951",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/14/allure/#testresult/77a521eabe162951",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612547624455,
+        "stop" : 1612547625050,
+        "duration" : 595
+      }
+    }, {
+      "uid" : "c9c1e4e3f370dd89",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/13/allure/#testresult/c9c1e4e3f370dd89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612453322451,
+        "stop" : 1612453322823,
+        "duration" : 372
+      }
+    }, {
+      "uid" : "54c811a5578d934a",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/12/allure/#testresult/54c811a5578d934a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612453262132,
+        "stop" : 1612453262434,
+        "duration" : 302
+      }
+    }, {
+      "uid" : "85b9875bd1247b36",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/11/allure/#testresult/85b9875bd1247b36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612453096457,
+        "stop" : 1612453096900,
+        "duration" : 443
+      }
+    } ]
+  },
+  "29e64d8b450155483803d9644033d0b3" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "3e0b4e38115ad851",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/3e0b4e38115ad851",
+      "status" : "failed",
+      "statusDetails" : "expected [5] but found [1]",
+      "time" : {
+        "start" : 1613486222449,
+        "stop" : 1613486243562,
+        "duration" : 21113
+      }
+    }, {
+      "uid" : "2782a4c3d158f192",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/2782a4c3d158f192",
+      "status" : "failed",
+      "statusDetails" : "expected [5] but found [1]",
+      "time" : {
+        "start" : 1613394781623,
+        "stop" : 1613394793395,
+        "duration" : 11772
+      }
+    }, {
+      "uid" : "95f94450a899d7f7",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/95f94450a899d7f7",
+      "status" : "failed",
+      "statusDetails" : "expected [5] but found [1]",
+      "time" : {
+        "start" : 1613371457564,
+        "stop" : 1613371472701,
+        "duration" : 15137
+      }
+    }, {
+      "uid" : "412b10f4997eb534",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/412b10f4997eb534",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613286818871,
+        "stop" : 1613286818872,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a1c3f6256ce56af7",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/8/allure/#testresult/a1c3f6256ce56af7",
+      "status" : "failed",
+      "statusDetails" : "expected [5] but found [1]",
+      "time" : {
+        "start" : 1613156852660,
+        "stop" : 1613156864380,
+        "duration" : 11720
+      }
+    } ]
+  },
+  "b30a6795dbc95483b838d8ce0f86e758" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "4d00db14d462a1f3",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/4d00db14d462a1f3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1612722176431,
+        "stop" : 1612722176449,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "5db147d108de69ac",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/5db147d108de69ac",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1612722176431,
+        "stop" : 1612722176449,
+        "duration" : 18
+      }
+    } ]
+  },
+  "452f427c2ecc8489744b38471e5687e1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "3438643a2dff595c",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/3438643a2dff595c",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=88.0.4324.150)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'N15538C', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\y26634\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56526}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ec516672027710351c72e130826e5c87",
+      "time" : {
+        "start" : 1613166577039,
+        "stop" : 1613166577040,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f758596d77501bc5",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/f758596d77501bc5",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=88.0.4324.150)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'N15538C', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\y26634\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56526}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ec516672027710351c72e130826e5c87",
+      "time" : {
+        "start" : 1613166577039,
+        "stop" : 1613166577040,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4ae2385718d006c8",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/4ae2385718d006c8",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=88.0.4324.150)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'N15538C', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\y26634\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56526}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ec516672027710351c72e130826e5c87",
+      "time" : {
+        "start" : 1613166577039,
+        "stop" : 1613166577040,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e9637ebb1afc3a51",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/e9637ebb1afc3a51",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=88.0.4324.150)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'N15538C', ip: '192.168.1.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\y26634\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56526}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ec516672027710351c72e130826e5c87",
+      "time" : {
+        "start" : 1613166577039,
+        "stop" : 1613166577040,
+        "duration" : 1
+      }
+    } ]
+  },
+  "1db6ddcdfa2eb3c8981f428a6f0a3d3a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "ffb1f54d9646f2fd",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/ffb1f54d9646f2fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486241285,
+        "stop" : 1613486260618,
+        "duration" : 19333
+      }
+    }, {
+      "uid" : "6736e0c9bfb771d6",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/6736e0c9bfb771d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613421640523,
+        "stop" : 1613421656879,
+        "duration" : 16356
+      }
+    }, {
+      "uid" : "e153f7b99c6213f7",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/e153f7b99c6213f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613371479668,
+        "stop" : 1613371494133,
+        "duration" : 14465
+      }
+    }, {
+      "uid" : "e0575b032770782e",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/e0575b032770782e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612816885958,
+        "stop" : 1612816902962,
+        "duration" : 17004
+      }
+    } ]
+  },
+  "f27c5b62cb4d50b38c6b86dffb515726" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "73d86946cf8c2065",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/73d86946cf8c2065",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486180409,
+        "stop" : 1613486182567,
+        "duration" : 2158
+      }
+    }, {
+      "uid" : "7441aa0eedebe54c",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/7441aa0eedebe54c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613421596214,
+        "stop" : 1613421596241,
+        "duration" : 27
+      }
+    }, {
+      "uid" : "2dc55d545ef82fb1",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/2dc55d545ef82fb1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613371425095,
+        "stop" : 1613371425095,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bae018b80bbcb943",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/bae018b80bbcb943",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613286803814,
+        "stop" : 1613286803819,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "1375dbc6607c66fa",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/1375dbc6607c66fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612816866572,
+        "stop" : 1612816867498,
+        "duration" : 926
+      }
+    }, {
+      "uid" : "8d8c819378364ead",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/8d8c819378364ead",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612768637772,
+        "stop" : 1612768638496,
+        "duration" : 724
+      }
+    }, {
+      "uid" : "5411ced93f650103",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/4/allure/#testresult/5411ced93f650103",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612681580444,
+        "stop" : 1612681580865,
+        "duration" : 421
+      }
+    }, {
+      "uid" : "26ac885cb5cc2b7e",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/24/allure/#testresult/26ac885cb5cc2b7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612558329665,
+        "stop" : 1612558330154,
+        "duration" : 489
+      }
+    }, {
+      "uid" : "a3b78d2adda2c4ed",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/23/allure/#testresult/a3b78d2adda2c4ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612557572845,
+        "stop" : 1612557573083,
+        "duration" : 238
+      }
+    } ]
+  },
+  "498bcf5836d859a87906ffe1e5adc3c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1fc80bb38bddacef",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/10/allure/#testresult/1fc80bb38bddacef",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_CONNECTION_REFUSED\n  (Session info: chrome=88.0.4324.104)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'N15538C', ip: '10.2.214.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\y26634\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:58177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2c2956e390373c47eabf13758c75be88",
+      "time" : {
+        "start" : 1612452664604,
+        "stop" : 1612452664608,
+        "duration" : 4
+      }
+    } ]
+  },
+  "b032c4b6d18fd18cff694e0b99ab35eb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "8b600ae6362bd8d9",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/8b600ae6362bd8d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486168242,
+        "stop" : 1613486177148,
+        "duration" : 8906
+      }
+    }, {
+      "uid" : "cc53c355fbd8cdcb",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/cc53c355fbd8cdcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613421586130,
+        "stop" : 1613421595800,
+        "duration" : 9670
+      }
+    }, {
+      "uid" : "17fd8cdf37f8de95",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/17fd8cdf37f8de95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613371418156,
+        "stop" : 1613371424850,
+        "duration" : 6694
+      }
+    }, {
+      "uid" : "75dddf10e31c701b",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/75dddf10e31c701b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613286803749,
+        "stop" : 1613286803752,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "38034d5b77da2fa1",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/38034d5b77da2fa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612816856221,
+        "stop" : 1612816864912,
+        "duration" : 8691
+      }
+    }, {
+      "uid" : "c7a36f37a53f2c81",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/c7a36f37a53f2c81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612768621862,
+        "stop" : 1612768636854,
+        "duration" : 14992
+      }
+    }, {
+      "uid" : "c7002d44921fab31",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/4/allure/#testresult/c7002d44921fab31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612681570285,
+        "stop" : 1612681579178,
+        "duration" : 8893
+      }
+    }, {
+      "uid" : "3e1637497d5c2344",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/24/allure/#testresult/3e1637497d5c2344",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612558317285,
+        "stop" : 1612558328933,
+        "duration" : 11648
+      }
+    }, {
+      "uid" : "1798312bb7a7a714",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/23/allure/#testresult/1798312bb7a7a714",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612557566510,
+        "stop" : 1612557572209,
+        "duration" : 5699
+      }
+    } ]
+  },
+  "9f5b45f54efa60e025a9ecdcfbf1455" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "8beba75657731a0c",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/8beba75657731a0c",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1613286803364,
+        "stop" : 1613286803366,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "52bc39400055037e",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/52bc39400055037e",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1613286803364,
+        "stop" : 1613286803366,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "118c40f9a713f5a3",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/118c40f9a713f5a3",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1613286803364,
+        "stop" : 1613286803366,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "292f78c41b068b79",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/292f78c41b068b79",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1613286803364,
+        "stop" : 1613286803366,
+        "duration" : 2
+      }
+    } ]
+  },
+  "e50b56b6ece40f15712a479dfdd59779" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 4,
+      "skipped" : 1,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 19
+    },
+    "items" : [ {
+      "uid" : "fbb8dd55f78d1bfe",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/fbb8dd55f78d1bfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486235266,
+        "stop" : 1613486239878,
+        "duration" : 4612
+      }
+    }, {
+      "uid" : "25a0758136d58e8e",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/25a0758136d58e8e",
+      "status" : "failed",
+      "statusDetails" : "Error Conparing Image File: FindFailed: C:\\\\FinalProjectAutomation\\\\FinalProject\\\\ImageRepository\\\\GrafanaAvater.png: (39x37) in R[0,0 1366x768]@S(0)\n  Line 2287, in file Region.java\n",
+      "time" : {
+        "start" : 1613421636502,
+        "stop" : 1613421639929,
+        "duration" : 3427
+      }
+    }, {
+      "uid" : "99be74a24a8ec0ee",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/99be74a24a8ec0ee",
+      "status" : "failed",
+      "statusDetails" : "Error Conparing Image File: FindFailed: C:\\\\FinalProjectAutomation\\\\FinalProject\\\\ImageRepository\\\\GrafanaAvater.png: (39x37) in R[0,0 1366x768]@S(0)\n  Line 2287, in file Region.java\n",
+      "time" : {
+        "start" : 1613371476770,
+        "stop" : 1613371479294,
+        "duration" : 2524
+      }
+    }, {
+      "uid" : "290230ba9152e724",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/290230ba9152e724",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612780513663,
+        "stop" : 1612780515474,
+        "duration" : 1811
+      }
+    }, {
+      "uid" : "b862e1d3f98d5034",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/b862e1d3f98d5034",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612768697390,
+        "stop" : 1612768699953,
+        "duration" : 2563
+      }
+    }, {
+      "uid" : "d441eee5f4a3aed5",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/4/allure/#testresult/d441eee5f4a3aed5",
+      "status" : "failed",
+      "statusDetails" : "Error Conparing Image File: FindFailed: C:\\\\FinalProjectAutomation\\\\FinalProject\\\\ImageRepository\\\\GrafanaAvater.png: (39x37) in R[0,0 1366x768]@S(0)\n  Line 2287, in file Region.java\n",
+      "time" : {
+        "start" : 1612681628800,
+        "stop" : 1612681632079,
+        "duration" : 3279
+      }
+    }, {
+      "uid" : "d1635a947ff3bf71",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/24/allure/#testresult/d1635a947ff3bf71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612558348559,
+        "stop" : 1612558349923,
+        "duration" : 1364
+      }
+    }, {
+      "uid" : "732b09b9b9094cb7",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/23/allure/#testresult/732b09b9b9094cb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612557637777,
+        "stop" : 1612557640434,
+        "duration" : 2657
+      }
+    }, {
+      "uid" : "ddbc6ad0066ee0a0",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/22/allure/#testresult/ddbc6ad0066ee0a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612553582883,
+        "stop" : 1612553584510,
+        "duration" : 1627
+      }
+    }, {
+      "uid" : "24452eead607689a",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/21/allure/#testresult/24452eead607689a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612553271740,
+        "stop" : 1612553273572,
+        "duration" : 1832
+      }
+    }, {
+      "uid" : "6bd24baed7f9e7bc",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/20/allure/#testresult/6bd24baed7f9e7bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550841842,
+        "stop" : 1612550847314,
+        "duration" : 5472
+      }
+    }, {
+      "uid" : "e7ec402427b6d1a0",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/19/allure/#testresult/e7ec402427b6d1a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550841842,
+        "stop" : 1612550847314,
+        "duration" : 5472
+      }
+    }, {
+      "uid" : "81f81af6a444c209",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/18/allure/#testresult/81f81af6a444c209",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550841842,
+        "stop" : 1612550847314,
+        "duration" : 5472
+      }
+    }, {
+      "uid" : "4dd97fb7b46de2db",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/17/allure/#testresult/4dd97fb7b46de2db",
+      "status" : "failed",
+      "statusDetails" : "Error Conparing Image File: FindFailed: C:\\\\FinalProjectAutomation\\\\FinalProject\\\\ImageRepository\\\\GrafanaAvater.png: (39x37) in R[0,0 1366x768]@S(0)\n  Line 2287, in file Region.java\n",
+      "time" : {
+        "start" : 1612550705148,
+        "stop" : 1612550707629,
+        "duration" : 2481
+      }
+    }, {
+      "uid" : "5bf5247097144f13",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/16/allure/#testresult/5bf5247097144f13",
+      "status" : "broken",
+      "statusDetails" : "com.sun.jna.Native.load(Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;)Lcom/sun/jna/Library;",
+      "time" : {
+        "start" : 1612548644870,
+        "stop" : 1612548647070,
+        "duration" : 2200
+      }
+    }, {
+      "uid" : "f6bbd1e1985346e3",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/15/allure/#testresult/f6bbd1e1985346e3",
+      "status" : "broken",
+      "statusDetails" : "com.sun.jna.Native.load(Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;)Lcom/sun/jna/Library;",
+      "time" : {
+        "start" : 1612548183134,
+        "stop" : 1612548185146,
+        "duration" : 2012
+      }
+    }, {
+      "uid" : "227094b3961e1554",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/14/allure/#testresult/227094b3961e1554",
+      "status" : "broken",
+      "statusDetails" : "com.sun.jna.Native.load(Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;)Lcom/sun/jna/Library;",
+      "time" : {
+        "start" : 1612547625524,
+        "stop" : 1612547628935,
+        "duration" : 3411
+      }
+    }, {
+      "uid" : "52ab41b1761f975a",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/13/allure/#testresult/52ab41b1761f975a",
+      "status" : "broken",
+      "statusDetails" : "com.sun.jna.Native.load(Ljava/lang/String;Ljava/lang/Class;Ljava/util/Map;)Lcom/sun/jna/Library;",
+      "time" : {
+        "start" : 1612453323089,
+        "stop" : 1612453324399,
+        "duration" : 1310
+      }
+    }, {
+      "uid" : "78a696320f4b9826",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/10/allure/#testresult/78a696320f4b9826",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1612452665091,
+        "stop" : 1612452665093,
+        "duration" : 2
+      }
+    } ]
+  },
+  "a00787013efcd1ddbde697bad1d5839b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 20,
+      "unknown" : 0,
+      "total" : 21
+    },
+    "items" : [ {
+      "uid" : "5ff03315c6a75c1e",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/5ff03315c6a75c1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486226767,
+        "stop" : 1613486232461,
+        "duration" : 5694
+      }
+    }, {
+      "uid" : "d920d36211b270d4",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/d920d36211b270d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613421628371,
+        "stop" : 1613421634008,
+        "duration" : 5637
+      }
+    }, {
+      "uid" : "ce78fd0ed216be30",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/ce78fd0ed216be30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613371470958,
+        "stop" : 1613371474929,
+        "duration" : 3971
+      }
+    }, {
+      "uid" : "85084de16de657ce",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/85084de16de657ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612780510318,
+        "stop" : 1612780512599,
+        "duration" : 2281
+      }
+    }, {
+      "uid" : "89f0abd9a8f181a1",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/89f0abd9a8f181a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612768693280,
+        "stop" : 1612768695607,
+        "duration" : 2327
+      }
+    }, {
+      "uid" : "870c0729a31b0262",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/4/allure/#testresult/870c0729a31b0262",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612681624079,
+        "stop" : 1612681627233,
+        "duration" : 3154
+      }
+    }, {
+      "uid" : "68376a4cd26bbdc9",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/24/allure/#testresult/68376a4cd26bbdc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612558345053,
+        "stop" : 1612558347234,
+        "duration" : 2181
+      }
+    }, {
+      "uid" : "2a7a2fa226dfc880",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/23/allure/#testresult/2a7a2fa226dfc880",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612557634397,
+        "stop" : 1612557636373,
+        "duration" : 1976
+      }
+    }, {
+      "uid" : "fb8e4dfbb777702f",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/22/allure/#testresult/fb8e4dfbb777702f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612553579066,
+        "stop" : 1612553581430,
+        "duration" : 2364
+      }
+    }, {
+      "uid" : "d9aad0d0cd03fb3",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/21/allure/#testresult/d9aad0d0cd03fb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612553268554,
+        "stop" : 1612553270590,
+        "duration" : 2036
+      }
+    }, {
+      "uid" : "7af0ef5194dccbfc",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/20/allure/#testresult/7af0ef5194dccbfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550838818,
+        "stop" : 1612550840508,
+        "duration" : 1690
+      }
+    }, {
+      "uid" : "c71de16ea5dd0c98",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/19/allure/#testresult/c71de16ea5dd0c98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550838818,
+        "stop" : 1612550840508,
+        "duration" : 1690
+      }
+    }, {
+      "uid" : "9ca64c1a8866e0",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/18/allure/#testresult/9ca64c1a8866e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550838818,
+        "stop" : 1612550840508,
+        "duration" : 1690
+      }
+    }, {
+      "uid" : "7706c2af99061108",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/17/allure/#testresult/7706c2af99061108",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550701420,
+        "stop" : 1612550703985,
+        "duration" : 2565
+      }
+    }, {
+      "uid" : "6bb11ad0f073b72d",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/16/allure/#testresult/6bb11ad0f073b72d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612548639780,
+        "stop" : 1612548643404,
+        "duration" : 3624
+      }
+    }, {
+      "uid" : "23fbb6e0331c0975",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/15/allure/#testresult/23fbb6e0331c0975",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612548178975,
+        "stop" : 1612548181704,
+        "duration" : 2729
+      }
+    }, {
+      "uid" : "8ff231a43e740926",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/14/allure/#testresult/8ff231a43e740926",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612547621705,
+        "stop" : 1612547623938,
+        "duration" : 2233
+      }
+    }, {
+      "uid" : "aaa82a8ad53cea1c",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/13/allure/#testresult/aaa82a8ad53cea1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612453320311,
+        "stop" : 1612453322033,
+        "duration" : 1722
+      }
+    }, {
+      "uid" : "ae8202ffceb29a66",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/12/allure/#testresult/ae8202ffceb29a66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612453260198,
+        "stop" : 1612453261792,
+        "duration" : 1594
+      }
+    }, {
+      "uid" : "ab142b8f34aaa605",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/11/allure/#testresult/ab142b8f34aaa605",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612453094630,
+        "stop" : 1612453096131,
+        "duration" : 1501
+      }
+    } ]
+  },
+  "4fc4395fed819050eafb7427a380b18d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 19,
+      "unknown" : 0,
+      "total" : 21
+    },
+    "items" : [ {
+      "uid" : "53797546a65d6f",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/53797546a65d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486215851,
+        "stop" : 1613486219443,
+        "duration" : 3592
+      }
+    }, {
+      "uid" : "113ca4472f790051",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/113ca4472f790051",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613421618851,
+        "stop" : 1613421621385,
+        "duration" : 2534
+      }
+    }, {
+      "uid" : "86d96104dc52ff63",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/86d96104dc52ff63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613371454649,
+        "stop" : 1613371457595,
+        "duration" : 2946
+      }
+    }, {
+      "uid" : "36d11c91e2ba93c",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/36d11c91e2ba93c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612780506836,
+        "stop" : 1612780507607,
+        "duration" : 771
+      }
+    }, {
+      "uid" : "962121c99e093c32",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/962121c99e093c32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612768685819,
+        "stop" : 1612768688196,
+        "duration" : 2377
+      }
+    }, {
+      "uid" : "5234035f641aaecb",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/4/allure/#testresult/5234035f641aaecb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612681613199,
+        "stop" : 1612681616018,
+        "duration" : 2819
+      }
+    }, {
+      "uid" : "56e9501b4cb5d03",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/24/allure/#testresult/56e9501b4cb5d03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612558336512,
+        "stop" : 1612558338431,
+        "duration" : 1919
+      }
+    }, {
+      "uid" : "478bf25b255ebe50",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/23/allure/#testresult/478bf25b255ebe50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612557628587,
+        "stop" : 1612557630035,
+        "duration" : 1448
+      }
+    }, {
+      "uid" : "eb13309bfd95bf3b",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/22/allure/#testresult/eb13309bfd95bf3b",
+      "status" : "failed",
+      "statusDetails" : "expected [99] but found [1]",
+      "time" : {
+        "start" : 1612553573294,
+        "stop" : 1612553575147,
+        "duration" : 1853
+      }
+    }, {
+      "uid" : "33971e50c2252119",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/21/allure/#testresult/33971e50c2252119",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612553262596,
+        "stop" : 1612553263896,
+        "duration" : 1300
+      }
+    }, {
+      "uid" : "4f59b02c34e6af9",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/20/allure/#testresult/4f59b02c34e6af9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550833784,
+        "stop" : 1612550835298,
+        "duration" : 1514
+      }
+    }, {
+      "uid" : "d8f306e61c0e9f5e",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/19/allure/#testresult/d8f306e61c0e9f5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550833784,
+        "stop" : 1612550835298,
+        "duration" : 1514
+      }
+    }, {
+      "uid" : "87c739c6ef74c688",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/18/allure/#testresult/87c739c6ef74c688",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550833784,
+        "stop" : 1612550835298,
+        "duration" : 1514
+      }
+    }, {
+      "uid" : "d41613b1e15d532e",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/17/allure/#testresult/d41613b1e15d532e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550682198,
+        "stop" : 1612550688408,
+        "duration" : 6210
+      }
+    }, {
+      "uid" : "89b0ea714ee11a08",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/16/allure/#testresult/89b0ea714ee11a08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612548634661,
+        "stop" : 1612548635929,
+        "duration" : 1268
+      }
+    }, {
+      "uid" : "2dfb06e63c224df8",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/15/allure/#testresult/2dfb06e63c224df8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612548173376,
+        "stop" : 1612548174565,
+        "duration" : 1189
+      }
+    }, {
+      "uid" : "a45b400cf8dc5e8e",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/14/allure/#testresult/a45b400cf8dc5e8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612547616104,
+        "stop" : 1612547617833,
+        "duration" : 1729
+      }
+    }, {
+      "uid" : "909226aec9ad5b22",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/13/allure/#testresult/909226aec9ad5b22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612453316129,
+        "stop" : 1612453317238,
+        "duration" : 1109
+      }
+    }, {
+      "uid" : "65ea53ab90a8e7f2",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/12/allure/#testresult/65ea53ab90a8e7f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612453256442,
+        "stop" : 1612453257327,
+        "duration" : 885
+      }
+    }, {
+      "uid" : "aed3af9ee7b55dce",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/11/allure/#testresult/aed3af9ee7b55dce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612453081913,
+        "stop" : 1612453082639,
+        "duration" : 726
+      }
+    } ]
+  },
+  "753a9fdcce1a5d1260114ba803a6cc35" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "897a2cbda3f08c32",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/897a2cbda3f08c32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486284728,
+        "stop" : 1613486291618,
+        "duration" : 6890
+      }
+    }, {
+      "uid" : "fcab73bbdb209507",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/fcab73bbdb209507",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613421679109,
+        "stop" : 1613421685046,
+        "duration" : 5937
+      }
+    }, {
+      "uid" : "609de7c2c74b2b6c",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/609de7c2c74b2b6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613371517672,
+        "stop" : 1613371523957,
+        "duration" : 6285
+      }
+    }, {
+      "uid" : "959fd6998e7a77c5",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/959fd6998e7a77c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613286853360,
+        "stop" : 1613286860127,
+        "duration" : 6767
+      }
+    } ]
+  },
+  "b4aea31047bfffb35cb539f4688b0cb7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "c4b2876c06fce0cb",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/c4b2876c06fce0cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486182675,
+        "stop" : 1613486184969,
+        "duration" : 2294
+      }
+    }, {
+      "uid" : "d869b0ddbc6ae770",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/d869b0ddbc6ae770",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613421596272,
+        "stop" : 1613421596273,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "487e249eea0f1ef9",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/487e249eea0f1ef9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613371425111,
+        "stop" : 1613371425111,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7530c026547add4a",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/7530c026547add4a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613286803832,
+        "stop" : 1613286803832,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fbe9920d6eed074e",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/fbe9920d6eed074e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612816867691,
+        "stop" : 1612816868907,
+        "duration" : 1216
+      }
+    }, {
+      "uid" : "756b057a397adc35",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/756b057a397adc35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612768638533,
+        "stop" : 1612768639913,
+        "duration" : 1380
+      }
+    }, {
+      "uid" : "b8d6c2364fb32e98",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/4/allure/#testresult/b8d6c2364fb32e98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612681580894,
+        "stop" : 1612681581347,
+        "duration" : 453
+      }
+    }, {
+      "uid" : "26567a64d66872cc",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/24/allure/#testresult/26567a64d66872cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612558330268,
+        "stop" : 1612558330742,
+        "duration" : 474
+      }
+    }, {
+      "uid" : "e0e41d07dcc02be4",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/23/allure/#testresult/e0e41d07dcc02be4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612557573123,
+        "stop" : 1612557573454,
+        "duration" : 331
+      }
+    } ]
+  },
+  "327bfe2a879f42c289c2554d96c3cc67" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "items" : [ {
+      "uid" : "935e482dded1f967",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/935e482dded1f967",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486177539,
+        "stop" : 1613486180233,
+        "duration" : 2694
+      }
+    }, {
+      "uid" : "d2b2bc326d2f6090",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/d2b2bc326d2f6090",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613421596199,
+        "stop" : 1613421596200,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "260caf6c5ab50956",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/260caf6c5ab50956",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613371424995,
+        "stop" : 1613371424996,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "df1104375399f3e5",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/df1104375399f3e5",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613286803772,
+        "stop" : 1613286803772,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e71121a86d0e0775",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/e71121a86d0e0775",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612816865053,
+        "stop" : 1612816866463,
+        "duration" : 1410
+      }
+    }, {
+      "uid" : "2934f61db04261fe",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/2934f61db04261fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612768637017,
+        "stop" : 1612768637710,
+        "duration" : 693
+      }
+    }, {
+      "uid" : "1402a0b69b52e8cc",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/4/allure/#testresult/1402a0b69b52e8cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612681579390,
+        "stop" : 1612681580373,
+        "duration" : 983
+      }
+    }, {
+      "uid" : "60d4040ce41d9c3c",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/24/allure/#testresult/60d4040ce41d9c3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612558329078,
+        "stop" : 1612558329609,
+        "duration" : 531
+      }
+    }, {
+      "uid" : "90a4e20089861528",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/23/allure/#testresult/90a4e20089861528",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612557572399,
+        "stop" : 1612557572782,
+        "duration" : 383
+      }
+    } ]
+  },
+  "f6c9e41a475cd759d68ad172de751948" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "2a6f632ea752533c",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/2a6f632ea752533c",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by @Configuration on method startSession but has not been marked @Optional or defined\nin C:\\Users\\y26634\\AppData\\Local\\JetBrains\\IdeaIC2020.3\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1612722176145,
+        "stop" : 1612722176150,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "982a740a672a73f3",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/982a740a672a73f3",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by @Configuration on method startSession but has not been marked @Optional or defined\nin C:\\Users\\y26634\\AppData\\Local\\JetBrains\\IdeaIC2020.3\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1612722176145,
+        "stop" : 1612722176150,
+        "duration" : 5
+      }
+    } ]
+  },
+  "f143a1a38733ab45626a9a4c906fbcec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 21,
+      "unknown" : 0,
+      "total" : 22
+    },
+    "items" : [ {
+      "uid" : "c66f38859244c56",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/c66f38859244c56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613486196982,
+        "stop" : 1613486214367,
+        "duration" : 17385
+      }
+    }, {
+      "uid" : "d79426f5e9b54d14",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/d79426f5e9b54d14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613421610314,
+        "stop" : 1613421617714,
+        "duration" : 7400
+      }
+    }, {
+      "uid" : "f136ee1a3fa5e7e6",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/f136ee1a3fa5e7e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613371444490,
+        "stop" : 1613371453263,
+        "duration" : 8773
+      }
+    }, {
+      "uid" : "44d17e301e6244e3",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/44d17e301e6244e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613286845207,
+        "stop" : 1613286852716,
+        "duration" : 7509
+      }
+    }, {
+      "uid" : "ac31ec81ec491e0",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/ac31ec81ec491e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612816878095,
+        "stop" : 1612816885211,
+        "duration" : 7116
+      }
+    }, {
+      "uid" : "37593c98a95b134a",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/37593c98a95b134a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612768668987,
+        "stop" : 1612768684638,
+        "duration" : 15651
+      }
+    }, {
+      "uid" : "caeec36f0065be52",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/4/allure/#testresult/caeec36f0065be52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612681599032,
+        "stop" : 1612681611769,
+        "duration" : 12737
+      }
+    }, {
+      "uid" : "c302d28113dd1b9e",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/24/allure/#testresult/c302d28113dd1b9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612558328480,
+        "stop" : 1612558335844,
+        "duration" : 7364
+      }
+    }, {
+      "uid" : "af1c03c3899a9be6",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/23/allure/#testresult/af1c03c3899a9be6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612557622835,
+        "stop" : 1612557628052,
+        "duration" : 5217
+      }
+    }, {
+      "uid" : "6c39ce1e357467fc",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/22/allure/#testresult/6c39ce1e357467fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612553569257,
+        "stop" : 1612553572841,
+        "duration" : 3584
+      }
+    }, {
+      "uid" : "6cc7221d49f69714",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/21/allure/#testresult/6cc7221d49f69714",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612553258509,
+        "stop" : 1612553262109,
+        "duration" : 3600
+      }
+    }, {
+      "uid" : "24b269080f83c71f",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/20/allure/#testresult/24b269080f83c71f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612552782104,
+        "stop" : 1612552786705,
+        "duration" : 4601
+      }
+    }, {
+      "uid" : "b869b222f3afc1f0",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/19/allure/#testresult/b869b222f3afc1f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612552782104,
+        "stop" : 1612552786705,
+        "duration" : 4601
+      }
+    }, {
+      "uid" : "793572e74ca67819",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/18/allure/#testresult/793572e74ca67819",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612552782104,
+        "stop" : 1612552786705,
+        "duration" : 4601
+      }
+    }, {
+      "uid" : "7cb53da3252ea1a8",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/17/allure/#testresult/7cb53da3252ea1a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612550676695,
+        "stop" : 1612550681778,
+        "duration" : 5083
+      }
+    }, {
+      "uid" : "c163c56198a5606f",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/16/allure/#testresult/c163c56198a5606f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612548629012,
+        "stop" : 1612548633694,
+        "duration" : 4682
+      }
+    }, {
+      "uid" : "a1eb2e376dcae575",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/15/allure/#testresult/a1eb2e376dcae575",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612548168983,
+        "stop" : 1612548172899,
+        "duration" : 3916
+      }
+    }, {
+      "uid" : "abdace9b3830956f",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/14/allure/#testresult/abdace9b3830956f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612547608087,
+        "stop" : 1612547615583,
+        "duration" : 7496
+      }
+    }, {
+      "uid" : "34f06373cfcab2d3",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/13/allure/#testresult/34f06373cfcab2d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612453312276,
+        "stop" : 1612453315721,
+        "duration" : 3445
+      }
+    }, {
+      "uid" : "66654cf9494cf76d",
+      "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/12/allure/#testresult/66654cf9494cf76d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612453253007,
+        "stop" : 1612453256119,
+        "duration" : 3112
+      }
+    } ]
+  }
+}

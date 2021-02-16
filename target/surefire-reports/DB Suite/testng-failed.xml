@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [DB Suite]">
+  <parameter name="PlatformName" value="webdb"/>
+  <test name="DB Tests">
+    <parameter name="PlatformName" value="webdb"/>
+    <classes>
+      <class name="sanity.GrafanaWebDB"/>
+    </classes>
+  </test> <!-- DB Tests -->
+</suite> <!-- Failed suite [DB Suite] -->

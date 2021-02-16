@@ -1,0 +1,414 @@
+{
+  "uid" : "544cde5eb78d6256",
+  "name" : "test03 - Update Team and Verify",
+  "fullName" : "sanity.GrafanaAPI.test03_updateTeamAndVerify",
+  "historyId" : "f27c5b62cb4d50b38c6b86dffb515726",
+  "time" : {
+    "start" : 1613486556815,
+    "stop" : 1613486557534,
+    "duration" : 719
+  },
+  "description" : "This Test Update a Team in Grafana and Verify it",
+  "descriptionHtml" : "<p>This Test Update a Team in Grafana and Verify it</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1613486556657,
+      "stop" : 1613486556657,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1613486521142,
+      "stop" : 1613486538898,
+      "duration" : 17756
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This Test Update a Team in Grafana and Verify it",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Get Team Property",
+      "time" : {
+        "start" : 1613486556815,
+        "stop" : 1613486557083,
+        "duration" : 268
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Data Server",
+        "time" : {
+          "start" : 1613486556816,
+          "stop" : 1613486557053,
+          "duration" : 237
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/api/teams/search"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Extract Value From JSON Format",
+        "time" : {
+          "start" : 1613486557053,
+          "stop" : 1613486557083,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@4cd90c36"
+        }, {
+          "name" : "path",
+          "value" : "teams[1].id"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jPath",
+        "value" : "teams[1].id"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Business Flow: Update Existing Team in Grafana",
+      "time" : {
+        "start" : 1613486557083,
+        "stop" : 1613486557322,
+        "duration" : 239
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update Data in Server",
+        "time" : {
+          "start" : 1613486557083,
+          "stop" : 1613486557322,
+          "duration" : 239
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{\"name\":\"Znetafim\",\"email\":\"mor@netafim.com\"}"
+        }, {
+          "name" : "resource",
+          "value" : "/api/teams/48"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Znetafim"
+      }, {
+        "name" : "email",
+        "value" : "mor@netafim.com"
+      }, {
+        "name" : "id",
+        "value" : "48"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Business Flow: Get Team Property",
+      "time" : {
+        "start" : 1613486557322,
+        "stop" : 1613486557534,
+        "duration" : 212
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Data Server",
+        "time" : {
+          "start" : 1613486557322,
+          "stop" : 1613486557503,
+          "duration" : 181
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/api/teams/search"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Extract Value From JSON Format",
+        "time" : {
+          "start" : 1613486557503,
+          "stop" : 1613486557534,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@2dc73024"
+        }, {
+          "name" : "path",
+          "value" : "teams[1].email"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jPath",
+        "value" : "teams[1].email"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Verify actual Text with Expected Text",
+      "time" : {
+        "start" : 1613486557534,
+        "stop" : 1613486557534,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "mor@netafim.com"
+      }, {
+        "name" : "expected",
+        "value" : "mor@netafim.com"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1613486558623,
+      "stop" : 1613486558624,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1613486557573,
+      "stop" : 1613486557573,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "test03_updateTeamAndVerify"
+  }, {
+    "name" : "parentSuite",
+    "value" : "API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "API Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "host",
+    "value" : "N15538C"
+  }, {
+    "name" : "thread",
+    "value" : "37712@N15538C.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "73d86946cf8c2065",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/32/allure/#testresult/73d86946cf8c2065",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613486180409,
+          "stop" : 1613486182567,
+          "duration" : 2158
+        }
+      }, {
+        "uid" : "7441aa0eedebe54c",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/31/allure/#testresult/7441aa0eedebe54c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1613421596214,
+          "stop" : 1613421596241,
+          "duration" : 27
+        }
+      }, {
+        "uid" : "2dc55d545ef82fb1",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/30/allure/#testresult/2dc55d545ef82fb1",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1613371425095,
+          "stop" : 1613371425095,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bae018b80bbcb943",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/29/allure/#testresult/bae018b80bbcb943",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1613286803814,
+          "stop" : 1613286803819,
+          "duration" : 5
+        }
+      }, {
+        "uid" : "1375dbc6607c66fa",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20DB/7/allure/#testresult/1375dbc6607c66fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612816866572,
+          "stop" : 1612816867498,
+          "duration" : 926
+        }
+      }, {
+        "uid" : "8d8c819378364ead",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/5/allure/#testresult/8d8c819378364ead",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612768637772,
+          "stop" : 1612768638496,
+          "duration" : 724
+        }
+      }, {
+        "uid" : "5411ced93f650103",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Electron/4/allure/#testresult/5411ced93f650103",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612681580444,
+          "stop" : 1612681580865,
+          "duration" : 421
+        }
+      }, {
+        "uid" : "26ac885cb5cc2b7e",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/24/allure/#testresult/26ac885cb5cc2b7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612558329665,
+          "stop" : 1612558330154,
+          "duration" : 489
+        }
+      }, {
+        "uid" : "a3b78d2adda2c4ed",
+        "reportUrl" : "http://localhost:5050/job/Sanity%20Tests%20Web/23/allure/#testresult/a3b78d2adda2c4ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1612557572845,
+          "stop" : 1612557573083,
+          "duration" : 238
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "544cde5eb78d6256.json",
+  "parameterValues" : [ "api" ]
+}
