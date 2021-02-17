@@ -1,5 +1,5 @@
 <h1>
-<p>Full Stack Automation Final Project </p>
+                   Full Stack Automation Final Project 
 </h1>
 
 ![alt text](https://i.imagesup.co/images2/66e081c11e82604f74031cce09c08d960d97c803.png)
@@ -101,7 +101,6 @@ These tests can be developed in a very simple way, due to a lot of work with the
 
 
 [Back To The Top](#Full-Stack-Automation-Final-Project)
-
 <style>
 p {text-align: center;}
 </style>
