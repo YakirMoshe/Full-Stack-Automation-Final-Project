@@ -1,11 +1,10 @@
-<center> 
-<h1> Full Stack Automation Final Project </h1>
-<p> 
-
+ <center> <h1> Full Stack Automation Final Project </h1>
+ 
 ![alt text](https://i.imagesup.co/images2/66e081c11e82604f74031cce09c08d960d97c803.png)
 
 > *This project created to demonstrate my knowledge and skills in Automation Testing with 6 Platforms: API, DB, Desktop, Electron, Mobile, Web.*
-</p></center>
+</center>
+
 ---
 
 ### Table of Contents
@@ -88,7 +87,7 @@ Also the infrastructure allows to work with differend kinds of applications.
 
 > Each of the applications has a few tests for demonstration purpose.
 These tests can be developed in a very simple way, due to a lot of work with the infrastructure.
-[[Sanity Tests]](https://github.com/sashka999/FullStackFinalProject/tree/master/src/test/java/SanityTests)
+[[Sanity Tests]](https://github.com/YakirMoshe/Full-Stack-Automation-Final-Project/tree/main/src/test/java/sanity)
 
 ---
 
@@ -102,7 +101,7 @@ These tests can be developed in a very simple way, due to a lot of work with the
 <center>
 <p>
 
-[Back To The Top](#Full-Stack-Automation-Final-Project)
+[Back To The Top](#Table-of-Contents)
 </p></center>
 
 [linkedin]: https://linkedin.com/in/yakir-moshe
