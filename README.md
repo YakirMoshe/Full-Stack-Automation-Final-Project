@@ -1,4 +1,4 @@
-<center>This text will be centered.
+<center>
 <p> 
 
 ![alt text](https://i.imagesup.co/images2/66e081c11e82604f74031cce09c08d960d97c803.png)
