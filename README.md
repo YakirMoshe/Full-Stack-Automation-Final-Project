@@ -1,4 +1,6 @@
-# Full Stack Automation Final Project
+<h1>
+<p>Full Stack Automation Final Project </p>
+</h1>
 
 ![alt text](https://i.imagesup.co/images2/66e081c11e82604f74031cce09c08d960d97c803.png)
 
@@ -11,10 +13,10 @@
 - [Description](#description)
 - [Technologies](#Technologies)
 - [Infrastructure project includes using of](#Infrastructure-project-includes-using-of)
-- [List of applications were used in this project](List-of-applications-were-used-in-this-project)
+- [List of applications were used in this project](#List-of-applications-were-used-in-this-project)
 - [Tools & Frameworks used in the project](#Tools-&-Frameworks-used-in-the-project)
 - [Tests Execution](#Tests-Execution)
-- [Author Info](#author-info)
+- [Author Info](#Connect-with-me)
 
 ---
 
@@ -39,7 +41,7 @@ Also the infrastructure allows to work with differend kinds of applications.
 
 ---
 
-### **_Infrastructure project includes using of:_**
+### **_Infrastructure project includes using of_**
 
 * Page Object Design Pattern
 * Project Layers(Extensions/Work Flows/Test Cases...)
@@ -55,7 +57,7 @@ Also the infrastructure allows to work with differend kinds of applications.
 
 ---
 
-### **_List of applications were used in this project:_**
+### **_List of applications were used in this project_**
 
 * Grafana webpage - Web based application
 * Mortgage calculator - Mobile application
@@ -66,7 +68,7 @@ Also the infrastructure allows to work with differend kinds of applications.
 
 ---
 
-### **_Tools & Frameworks used in the project:_**
+### **_Tools & Frameworks used in the project_**
 
 * TestNG - Testing Framework
 * Listeners - interface used to generate logs and customize the TestNG reports
@@ -74,6 +76,8 @@ Also the infrastructure allows to work with differend kinds of applications.
 * [Jenkins](https://www.jenkins.io/)- for tests execution
 * REST Assured - for API testing
 * [Allure](http://allure.qatools.ru/) Reports - as the main reporting system
+
+![alt text](https://i.imagesup.co/images2/5009e08474d7ede5b415fc394dad83ca90738d53.png)
 
 ![alt text](https://i.imagesup.co/images2/a5a13b24c8ec5af527ca9b960df3259e085990d1.jpg)
 
