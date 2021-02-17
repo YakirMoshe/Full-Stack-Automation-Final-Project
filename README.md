@@ -1,11 +1,10 @@
-<h1>
-<p>Full Stack Automation Final Project </p>
-</h1>
+<center>This text will be centered.
+<p> 
 
 ![alt text](https://i.imagesup.co/images2/66e081c11e82604f74031cce09c08d960d97c803.png)
 
-> This project created to demonstrate my knowledge and skills in Automation Testing with 6 Platforms: API, DB, Desktop, Electron, Mobile, Web.
-
+> *This project created to demonstrate my knowledge and skills in Automation Testing with 6 Platforms: API, DB, Desktop, Electron, Mobile, Web.*
+</p></center>
 ---
 
 ### Table of Contents
@@ -99,13 +98,10 @@ These tests can be developed in a very simple way, due to a lot of work with the
 
 ---
 
+<center>
+<p>
 
 [Back To The Top](#Full-Stack-Automation-Final-Project)
+</p></center>
 
-<style>
-p {text-align: center;}
-</style>
-
-</details>
-
-[linkedin]: www.linkedin.com/in/yakir-moshe
+[linkedin]: https://linkedin.com/in/yakir-moshe
