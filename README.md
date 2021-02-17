@@ -93,7 +93,9 @@ These tests can be developed in a very simple way, due to a lot of work with the
 ---
 
 ## **_Connect with me_**
-* <img align="left" alt="yakir-moshe | LinkedIn" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Linkedin.svg" />**->**   [@Yakir_Moshe](www.linkedin.com/in/yakir-moshe)
+
+* [<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Linkedin.svg" />][linkedin]
+<br>
 
 ---
 
@@ -103,3 +105,7 @@ These tests can be developed in a very simple way, due to a lot of work with the
 <style>
 p {text-align: center;}
 </style>
+
+</details>
+
+[linkedin]: www.linkedin.com/in/yakir-moshe
