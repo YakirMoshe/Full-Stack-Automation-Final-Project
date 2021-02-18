@@ -1,8 +1,11 @@
-<h1> Full Stack Automation Final Project </h1>
+ <center> <h1> Full Stack Automation Final Project </h1>
  
 ![alt text](https://i.imagesup.co/images2/66e081c11e82604f74031cce09c08d960d97c803.png)
 
 > _*This project created to demonstrate my knowledge and skills in Automation Testing with 6 Platforms: API, DB, Desktop, Electron, Mobile, Web.*_
+</center>
+
+[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
 
 ---
 
