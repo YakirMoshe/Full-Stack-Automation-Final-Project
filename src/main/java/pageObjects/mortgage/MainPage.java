@@ -22,7 +22,7 @@ public class MainPage {
      */
     public MainPage(AppiumDriver mobileDriver) {
         this.mobileDriver = mobileDriver;
-        PageFactory.initElements(new AppiumFieldDecorator(mobileDriver, Duration.ofSeconds(5)), this);
+       // PageFactory.initElements(new AppiumFieldDecorator(mobileDriver, Duration.ofSeconds(3)), this);
     }
 
     @AndroidFindBy(xpath = "//*[@id='etAmount']")

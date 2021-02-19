@@ -33,7 +33,7 @@
     <ElectronAppPath>C:/Users/y26634/AppData/Local/Programs/todolist/Todolist.exe</ElectronAppPath>
 
     <!--Desktop -->
-    <CalculatorApp>Microsoft.WindowsAlarms_8wekyb3d8bbwe!App</CalculatorApp>
+    <CalculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</CalculatorApp>
     <AppiumServerDesktop>http://127.0.0.1:4723</AppiumServerDesktop>
 
     <!-- Database -->

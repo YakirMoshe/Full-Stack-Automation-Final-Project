@@ -161,7 +161,6 @@ public class CommonOps extends Base {
      */
     public static void initDesktop() {
         dc.setCapability("app", getData("CalculatorApp"));
-
         try {
             driver = new WindowsDriver(new URL(getData("AppiumServerDesktop")), dc);
         } catch (Exception e) {

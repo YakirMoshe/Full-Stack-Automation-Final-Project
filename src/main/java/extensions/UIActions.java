@@ -35,7 +35,7 @@ public class UIActions extends CommonOps {
     public static void updateTextHuman(WebElement elem, String text) {
         wait.until((ExpectedConditions.visibilityOf(elem)));
         for (char ch : text.toCharArray()) {
-            Uninterruptibles.sleepUninterruptibly(500, TimeUnit.MILLISECONDS);
+            Uninterruptibles.sleepUninterruptibly(470, TimeUnit.MILLISECONDS);
             elem.sendKeys(ch + "");
         }
     }

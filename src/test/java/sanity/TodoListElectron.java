@@ -30,7 +30,7 @@ public class TodoListElectron extends CommonOps {
     @Description("This Test add a new task With Blue Color and verifies it in the list of tasks")
     public void test03_AddWithColorAndVerifyNewTask() {
         ElectronFlows.addNewTaskWithColor("Learn PHP");
-        Verifications.verifyNumber(ElectronFlows.getNumberOfTasks(), 5);
+        Verifications.verifyNumber(ElectronFlows.getNumberOfTasks(), 1);
     }
 
 

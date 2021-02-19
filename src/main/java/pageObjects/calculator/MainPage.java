@@ -41,10 +41,19 @@ public class MainPage {
     @FindBy(name = "Plus")
     private WebElement btn_plus;
 
+    @FindBy(name = "Minus")
+    private WebElement btn_minus;
+
+    @FindBy(name = "Multiply by")
+    private WebElement btn_multiply;
+
+    @FindBy(name = "Divide by")
+    private WebElement btn_Divide;
+
     @FindBy(name = "Equals")
     private WebElement btn_equals;
 
-    @FindBy(xpath = "//*[@AutomationID='CalculatorResults']")
+    @FindBy(xpath = "//*[@AutomationId='CalculatorResults']")
     private WebElement field_result;
 
     /**
@@ -107,4 +116,15 @@ public class MainPage {
         return field_result;
     }
 
+    public WebElement getBtn_minus() {
+        return btn_minus;
+    }
+
+    public WebElement getBtn_multiply() {
+        return btn_multiply;
+    }
+
+    public WebElement getBtn_Divide() {
+        return btn_Divide;
+    }
 }

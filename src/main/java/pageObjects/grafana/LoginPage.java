@@ -14,7 +14,7 @@ public class LoginPage {
     @FindBy(css = "button[type='submit']")
     private WebElement btn_login;
 
-    @FindBy(xpath = "//a[contains(text(),'Skip')]")
+    @FindBy(xpath = "//a[@class='btn btn-link']")
     private WebElement btn_skip;
 
     /**
