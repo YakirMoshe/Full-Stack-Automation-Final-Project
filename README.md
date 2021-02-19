@@ -96,7 +96,7 @@ Also the infrastructure allows to work with differend kinds of applications.
 
 > Each of the applications has a few tests for demonstration purpose.
 These tests can be developed in a very simple way, due to a lot of work with the infrastructure.
-[[Sanity Tests]](https://github.com/YakirMoshe/Full-Stack-Automation-Final-Project/tree/main/src/test/java/sanity)
+[[Sanity Tests]](https://github.com/YakirMoshe/Full-Stack-Automation-Final-Project/tree/main/Full_Stack_Automation_Final_Project/src/test/java/sanity)
 
 ---
 
