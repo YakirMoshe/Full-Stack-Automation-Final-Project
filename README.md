@@ -10,17 +10,17 @@
 ## ***Short videos for:***
 
 ### **_Full Stack Automation on Web_**
-[![Full Stack Automation on Web](Web.gif)](https://www.youtube.com/watch?v=Qmt1bE3zO-Y)
+[![Full Stack Automation on Web](\Full_Stack_Automation_Final_Project\Web.gif)](https://www.youtube.com/watch?v=Qmt1bE3zO-Y)
 
 ---
 
 ### **_Full Stack Automation on Electron app_**
-[![Full Stack Automation on Electron app](Electron.gif)](https://www.youtube.com/watch?v=U1FgG6-SaLA)
+[![Full Stack Automation on Electron app](\Full_Stack_Automation_Final_Project\Electron.gif)](https://www.youtube.com/watch?v=U1FgG6-SaLA)
 
 ---
 
 ### **_Full Stack Automation on Desktop App_**
-[![Full Stack Automation on Desktop App](Desktop.gif)](https://www.youtube.com/watch?v=PzGKxkz5v-c)
+[![Full Stack Automation on Desktop App](\Full_Stack_Automation_Final_Project\Desktop.gif)](https://www.youtube.com/watch?v=PzGKxkz5v-c)
 
 ---
 
