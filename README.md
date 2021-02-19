@@ -5,15 +5,21 @@
 > _*This project created to demonstrate my knowledge and skills in Automation Testing with 6 Platforms: API, DB, Desktop, Electron, Mobile, Web.*_
 </center>
 
-***Short videos for:***
+---
 
-**Full Stack Automation on Web**
+## ***Short videos for:***
+
+### **_Full Stack Automation on Web_**
 [![Full Stack Automation on Web](Web.gif)](https://www.youtube.com/watch?v=Qmt1bE3zO-Y)
 
-**Full Stack Automation on Electron app**
+---
+
+### **_Full Stack Automation on Electron app_**
 [![Full Stack Automation on Electron app](Electron.gif)](https://www.youtube.com/watch?v=U1FgG6-SaLA)
 
-**Full Stack Automation on Desktop App**
+---
+
+### **_Full Stack Automation on Desktop App_**
 [![Full Stack Automation on Desktop App](Desktop.gif)](https://www.youtube.com/watch?v=PzGKxkz5v-c)
 
 ---
