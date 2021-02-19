@@ -5,7 +5,16 @@
 > _*This project created to demonstrate my knowledge and skills in Automation Testing with 6 Platforms: API, DB, Desktop, Electron, Mobile, Web.*_
 </center>
 
-[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+***Short videos for:***
+
+**Full Stack Automation on Web**
+[![Full Stack Automation on Web](Web.gif)](https://www.youtube.com/watch?v=Qmt1bE3zO-Y)
+
+**Full Stack Automation on Electron app**
+[![Full Stack Automation on Electron app](Electron.gif)](https://www.youtube.com/watch?v=U1FgG6-SaLA)
+
+**Full Stack Automation on Desktop App**
+[![Full Stack Automation on Desktop App](Desktop.gif)](https://www.youtube.com/watch?v=PzGKxkz5v-c)
 
 ---
 
