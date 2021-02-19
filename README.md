@@ -110,7 +110,7 @@ These tests can be developed in a very simple way, due to a lot of work with the
 <center>
 <p>
 
-[Back To The Top](#Table-of-Contents)
+[Back To The Top](#Full-Stack-Automation-Final-Project)
 </p></center>
 
 [linkedin]: https://linkedin.com/in/yakir-moshe
