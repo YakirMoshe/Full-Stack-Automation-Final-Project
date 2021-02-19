@@ -1,11 +1,5 @@
- <center> <h1> Full Stack Automation Final Project </h1>
- 
-![alt text](https://i.imagesup.co/images2/66e081c11e82604f74031cce09c08d960d97c803.png)
-
-> _*This project created to demonstrate my knowledge and skills in Automation Testing with 6 Platforms: API, DB, Desktop, Electron, Mobile, Web.*_
-</center>
-
----
+# **Full Stack Automation Final Project** 
+This project created to demonstrate my knowledge and skills in Automation Testing with 6 Platforms: API, DB, Desktop, Electron, Mobile, Web.
 
 ## ***Short videos for:***
 
@@ -43,10 +37,8 @@ There are main/common/helpers/actions/page_object modules.
 In this way, the tests can be created in very simple way with a minimum lines of code.
 Also the infrastructure allows to work with differend kinds of applications.
 
-**Big advantage of the infrastructure is that it can be easy maintained!**
-
-
 #### _Technologies_
+![alt text](https://i.imagesup.co/images2/66e081c11e82604f74031cce09c08d960d97c803.png)
 
 - Web based application
 - Mobile application
